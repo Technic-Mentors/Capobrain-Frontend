@@ -1,0 +1,55 @@
+import React from 'react'
+import { Helmet } from 'react-helmet';
+
+export default function Studentreport() {
+  return (
+    <div className='container'>
+<Helmet>
+        {/* open grapgh tag */}
+        <meta property="og:title" content="Students Report" />
+        <meta property="og:description" content="This functionality enables efficient tracking and retrieval of relevant student records, and users can further generate and print reports, enhancing the school's administrative and record-keeping capabilities." />
+        <meta property="og:image" content="https://capobrain.com/img/Students-Report.png" />
+        <meta property="og:url" content="https://capobrain.com/user-manual/students-report" />
+        <meta property="og:type" content="website" />
+
+        {/* twitter card  */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@BrainCapo" />
+        <meta name="twitter:title" content="Students Report" />
+        <meta name="twitter:description" content="This functionality enables efficient tracking and retrieval of relevant student records, and users can further generate and print reports, enhancing the school's administrative and record-keeping capabilities." />
+        <meta name="twitter:image" content="https://capobrain.com/img/Students-Report.png" />
+
+        {/* Schema.org structured data */}
+        <script type="application/ld+json">{`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://capobrain.com/user-manual/students-report",
+            "name": "Capobrain",
+            "description": "This functionality enables efficient tracking and retrieval of relevant student records, and users can further generate and print reports, enhancing the school's administrative and record-keeping capabilities." ,
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://capobrain.com/search?q={search_term_string}",
+                "actionPlatform": [
+                  "https://schema.org/DesktopWebPlatform",
+                  "https://schema.org/IOSPlatform",
+                  "https://schema.org/AndroidPlatform"
+                ]
+              },
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}</script>
+
+        <link rel="canonical" href="https://capobrain.com/user-manual/students-report" />
+        <meta name="description" content="This functionality enables efficient tracking and retrieval of relevant student records, and users can further generate and print reports, enhancing the school's administrative and record-keeping capabilities." />
+      </Helmet>
+
+      <h1 className='manual-h1'>Students Report</h1>
+      <p>The "Student Report" module provides comprehensive data accessibility, allowing users to filter and view specific student information Branch and Class. This functionality enables efficient tracking and retrieval of relevant student records, and users can further generate and print reports, enhancing the school's administrative and record-keeping capabilities.</p>
+      <img src="/img/Students-Report.png" className='img-fluid' alt="Students-Report" />
+    </div>
+  )
+}
