@@ -1,9 +1,10 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useState } from "react";
 import MyContext from "./MyContext";
 
 const MyProvider = ({ children }) => {
     const [posts, setPosts] = useState([]);
     const [category, setCategory] = useState(null);
+    const [allMessages, setAllMessages] = useState([])
     const [filterPosts, setFilterPosts] = useState([])
     const [uniqueCategory, setUniqueCategory] = useState(new Set());
     const Getallposts = async () => {
@@ -20,8 +21,21 @@ const MyProvider = ({ children }) => {
                 }
             });
     };
+
+    const ticketMessages = async () => {
+        const res = await fetch("https://capobrain-backend.vercel.app/api/auth/messages", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+        const data = await res.json()
+        setAllMessages(data)
+    }
+
     useEffect(() => {
         Getallposts();
+        ticketMessages()
     }, []);
 
     useEffect(() => {
@@ -32,9 +46,9 @@ const MyProvider = ({ children }) => {
             setFilterPosts(filterPost)
         }
     }, [category, posts]);
-    
+
     return (
-        <MyContext.Provider value={{ filterPosts, posts, uniqueCategory, setCategory }}>
+        <MyContext.Provider value={{ filterPosts, posts, uniqueCategory, setCategory, allMessages, ticketMessages }}>
             {children}
         </MyContext.Provider>
     )

@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import emailjs from "@emailjs/browser";
 import { Helmet } from 'react-helmet';
+import headerImg from "../img/contact-header.webp"
 
 export default function Contact() {
   const [successMessage, setSuccessMessage] = useState("");
@@ -75,7 +76,7 @@ export default function Contact() {
   return (
     <div>
       <Helmet>
-      <title>Contact Us - Capobrain</title>
+        <title>Contact Us - Capobrain</title>
         {/* open grapgh tag */}
         <meta property="og:title" content="Contact Us" />
         <meta property="og:description" content="Connect with Capobrain for a demo of our advanced Education Management System. Use our contact form for inquiries. Elevate your institution with streamlined.." />
@@ -117,18 +118,24 @@ export default function Contact() {
       </Helmet>
 
       <div className="home-container">
-        <div
-          style={{
-            backgroundColor:"#133D78"
-          }}
-        >
-          <div className="d-flex align-items-center justify-content-center">
-            <div>
-              <h1
-                className="head text-white text-center animate__animated animate__zoomIn py-6"
-              >
-                Get In Touch With Us
-              </h1>
+        <div className="home-container-overlay">
+          <div className="container">
+            <div className="row d-flex align-items-center justify-content-between px-5">
+              <div className="col-md-6">
+                <div
+                >
+                  <div className="">
+                    <div>
+                      <h1 className="animate__animated animate__zoomIn">
+                        Transforming Education Through Technology
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-5">
+                <img src={headerImg} alt="header-img" className="img-fluid"></img>
+              </div>
             </div>
           </div>
         </div>
@@ -216,7 +223,7 @@ export default function Contact() {
                 </div>
                 <div className="ms-3">
                   <h4 style={{ color: "#133D78" }}>Email</h4>
-                  <p style={{ color: "black" }}> <a href="mailto:info@capobrain.com" style={{textDecoration:"none",color:"black"}}>info@capobrain.com</a></p>
+                  <p style={{ color: "black" }}> <a href="mailto:info@capobrain.com" style={{ textDecoration: "none", color: "black" }}>info@capobrain.com</a></p>
                 </div>
               </div>
             </div>
@@ -293,7 +300,8 @@ export default function Contact() {
                       <div id="textI" style={{ color: "red" }}></div>
                     </div>
                     <div className="text-start d-flex justify-content-center">
-                      <button className="btn btn1" type="submit">
+                      <button className="btn btnFill" type="submit">
+                        <i className="fa-solid fa-arrow-right me-2 moveIcon text-white"></i>
                         Send Message
                       </button>
                     </div>

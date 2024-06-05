@@ -49,7 +49,7 @@ export default function Frecords() {
 
 <h1 className='manual-h1'>Family Record</h1>
 <p>It will provide a list of all the student's family in the family record. If you want to see how many students have the same family, this list is useful, and when we click on the view button, it displays the student's name, ID, class, and section.</p>
-     <img src="/img/Family-Detail.png" className='img-fluid' alt="Family-Detail" />  
+     <img src="/img/Family-Detail.avif" className='img-fluid' alt="Family-Detail" />  
     </div>
   )
 }

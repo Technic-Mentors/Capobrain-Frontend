@@ -49,7 +49,7 @@ export default function Siblingdic() {
 
       <h1 className='manual-h1'>Sibling Discount</h1>
       <p>The sibling discount will be applied to any student who has siblings enrolled at this institution. As a result, you can update and delete this discount as well as configure the discount's amount.</p>
-      <img src="/img/Update-Sibling-Discount.png" className='img-fluid' alt="Update-Sibling-Discount" />
+      <img src="/img/Update-Sibling-Discount.avif" className='img-fluid' alt="Update-Sibling-Discount" />
     </div>
   )
 }

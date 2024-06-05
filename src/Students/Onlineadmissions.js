@@ -61,7 +61,7 @@ export default function Onlineadmissions() {
         the right admission form is displayed, and the student is added to the
         student list.
       </p>
-      <img src="/img/Online-Admission.png" className="img-fluid" alt="Online-Admission" />
+      <img src="/img/Online-Admission.avif" className="img-fluid" alt="Online-Admission" />
     </div>
   );
 }

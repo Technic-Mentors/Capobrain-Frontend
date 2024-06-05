@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Login() {
     const [credentials, setCredentials] = useState({
@@ -22,22 +22,19 @@ export default function Login() {
         console.log(json)
         const both = document.getElementById("number");
         both.innerText = json.error;
-        if (json.success) {
-          localStorage.setItem("token", json.authtoken);
-          navigate("/admin");
+        if (res.ok) {
+          localStorage.setItem("User", json);
+          navigate("/adminPanel");
         }
       };
       const onchange = (e) => {
         setCredentials({ ...credentials, [e.target.name]: e.target.value });
       };
   return (
-    <div
-    style={{ backgroundImage: `url(${"img/b1.jpg"})`}}
-      className="background-img10"
-    >
-      <div className="color-overlay10">
+    <div className='elevateGreeing'>
+      <div className="elevateGreeing-overlay">
           <div className="d-flex justify-content-end">
-        <Link to="/signup"> <button className="btn btn-primary mx-4 mt-3">Sign Up</button></Link>
+        {/* <Link to="/signup"> <button className="btn btn1 mx-4 mt-3">Sign Up</button></Link> */}
           </div>
         <div className="container " style={{ marginTop:"100px" }}>
           <div className="row d-flex justify-content-center">
@@ -47,7 +44,7 @@ export default function Login() {
             <div id="number" className="text-danger text-center"></div>
 
             <div className="mb-1">
-              <label htmlFor="email" className="form-label text-white">
+              <label htmlFor="email" className="form-label">
                 Email address
               </label>
               <input
@@ -61,7 +58,7 @@ export default function Login() {
               <div className="email" style={{ color: "red" }} id="mail"></div>
             </div>
             <div className="mb-1">
-              <label htmlFor="password" className="form-label text-white">
+              <label htmlFor="password" className="form-label">
                 Password
               </label>
               <input
@@ -81,7 +78,7 @@ export default function Login() {
 
             <button
               type="submit"
-              className="btn btn-primary mb-2 mt-4 px-5"
+              className="btn btn1 mb-2 mt-4 px-5"
               style={{ marginLeft: 100 }}
             >
               Log In

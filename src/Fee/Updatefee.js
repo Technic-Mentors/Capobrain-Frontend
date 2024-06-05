@@ -49,7 +49,7 @@ export default function Updatefee() {
 
       <h1 className='manual-h1'>Update Fee</h1>
       <p>In update fee module if you want to update the fee of any student then search the student through ID and then enter the fee amount in the monthly fee amount and then select the with effect date when you will select the with effect date then that transaction will be process according with that date.</p>
-      <img src="/img/Update-Fee.png" className='img-fluid' alt="Update-Fee" />
+      <img src="/img/Update-Fee.avif" className='img-fluid' alt="Update-Fee" />
     </div>
   )
 }

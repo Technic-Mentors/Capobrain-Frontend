@@ -170,6 +170,17 @@ import Login from "./Components/Login";
 import UserSignup from "./Components/UserSignup";
 import DemoUsers from "./Components/DemoUsers";
 import MyProvider from "./ContextApi/MyProvider";
+import FAQ from "./Components/FAQ";
+import UserProfile from "./Components/UserProfile";
+import TicketGenerate from "./Components/TicketGenerate";
+import GeneratedTickets from "./Components/GeneratedTickets";
+import SolvedTickets from "./Components/SolvedTickets";
+import PendingTicket from "./Components/PendingTicket";
+import TicketMessages from "./Components/TicketMessages";
+import AllTickets from "./Components/AllTickets";
+import Livechat from "./Components/Livechat";
+import Help from "./Components/Help";
+import UserLogin from "./Components/UserLogin";
 
 function App() {
   return (
@@ -179,6 +190,7 @@ function App() {
           <Topbar />
           <Navbar />
           <ScrollToTop />
+          <Livechat/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -189,15 +201,29 @@ function App() {
             <Route path="/demo" element={<Demo />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/userSignUp" element={<UserSignup />} />
+            <Route path="/userLogin" element={<UserLogin/>} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/t&c" element={<Terms />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/help" element={<Help/>} />
+            <Route path="/faqs" element={<FAQ/>} />
 
+            {/* Ticket start */}
+            <Route path="/user-profile" element={<UserProfile/>} >
+              <Route index element={<Navigate to="ticket-generate" />} />
+              <Route path="ticket-generate" element={<TicketGenerate/>} />
+              <Route path="generated-tickets" element={<GeneratedTickets/>} />
+              <Route path="open-status-tickets" element={<SolvedTickets/>} />
+              <Route path="close-status-tickets" element={<PendingTicket/>} />
+              <Route path="messages" element={<TicketMessages/>} />
+            </Route>
+            
+            {/* Ticket end */}
 
             {/* Admin Start*/}
             <Route />
-            <Route path="/admin" element={<Admin />}>
+            <Route path="/adminPanel" element={<Admin />}>
               <Route index element={<Navigate to="addblog" />} />
               <Route path="demoreq" element={<Demorequest />} />
               <Route path="addblog" element={<Blogcategory />} />
@@ -206,7 +232,7 @@ function App() {
               <Route path="addcategory" element={<Addcategory />} />
               <Route path="allcategory" element={<Allcategory />} />
               <Route path="board" element={<Board />} />
-
+              <Route path="tickets" element={<AllTickets/>} />
             </Route>
             {/* Admin End*/}
 

@@ -49,7 +49,7 @@ export default function Librarybook() {
 
       <h1 className='manual-h1'>Library Books</h1>
       <p>In this module you will add all the books of the library. You will add book name, author, Book library No, Price and quantity. You can view, edit and delete any book any time. You can’t add same book twice. It will show you the list of all the books of the library.</p>
-      <img src="/img/Add-Book.png" className='img-fluid' alt="Add-Book" />
+      <img src="/img/Add-Book.avif" className='img-fluid' alt="Add-Book" />
     </div>
   )
 }

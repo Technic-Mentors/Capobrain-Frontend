@@ -49,7 +49,7 @@ export default function Configexams() {
 
       <h1 className='manual-h1'>Configure Exams</h1>
       <p>In this module, you will create an exam for any class in any branch, with the proper start and end dates, as well as the exam type, such as first term or annual. You must include a class, section through configuration module, and students, though.</p>
-      <img src="/img/Configure-Exams.png" className='img-fluid' alt="Configure-Exams" />
+      <img src="/img/Configure-Exams.avif" className='img-fluid' alt="Configure-Exams" />
     </div>
   )
 }

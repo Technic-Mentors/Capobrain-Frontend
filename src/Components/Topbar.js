@@ -5,7 +5,7 @@ export default function Topbar() {
 
   const location = useLocation();
 
-  if(location.pathname === "/admin/addblog" || location.pathname === "/admin/allposts" || location.pathname === "/admin/allcategory" || location.pathname === "/admin/addcategory" || location.pathname === "/admin/board" || location.pathname === "/admin/demoUsers"){
+  if (location.pathname === "/adminPanel/addblog" || location.pathname === "/adminPanel/allposts" || location.pathname === "/adminPanel/allcategory" || location.pathname === "/adminPanel/addcategory" || location.pathname === "/adminPanel/board" || location.pathname === "/adminPanel/demoUsers" || location.pathname === "/adminPanel/tickets") {
     return null;
   }
   return (
@@ -13,22 +13,22 @@ export default function Topbar() {
       {/* <!-- Topbar Start --> */}
       <div
         className="container-fluid pe-0 d-none d-lg-block"
-        style={{ backgroundColor: "#133D78" }}
+        style={{ backgroundColor: "#00b6c7" }}
       >
         <div className="row gx-0 d-flex align-items-center">
           <div className="col-md-8 d-flex text-lg-start mb-2 mb-lg-0">
-          <p className="m-0 mx-4 text-white">
-          <i className="fa fa-envelope-open me-2"></i>
-                  info@capobrain.com
-                </p>
-                <p className="m-0 text-white">
-                <i className="fa fa-phone me-1"></i> +923 111 122 144
-                </p>
-                
+            <p className="m-0 mx-4 text-white">
+              <i className="fa fa-envelope-open me-2" style={{ color: "white" }}></i>
+              info@capobrain.com
+            </p>
+            <p className="m-0 text-white">
+              <i className="fa-brands fa-whatsapp me-1" style={{ color: "white" }}></i> +923 111 122 144
+            </p>
+
           </div>
           <div className="col-md-4 text-center text-lg-end py-1">
-            <div className="position-relative d-inline-flex align-items-center py-1" style={{marginRight:"9%"}}>
-             
+            <div className="position-relative d-inline-flex align-items-center py-1" style={{ marginRight: "9%" }}>
+
               <a
                 href="https://www.facebook.com/CapoBrainOfficial"
                 target="blank"

@@ -8,24 +8,27 @@ import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Helmet } from 'react-helmet';
-
+import headerImg from "../img/capobrainHeader-img.avif"
+import aboutSection from "../img/aboutSection (1).avif"
+import Benefits from "./Benefits";
+import ChooseUs from "./ChooseUs";
 export default function Home() {
   const iframeRef = useRef(null);
-  const [originalSrc, setOriginalSrc] = useState(
+  const [originalSrc] = useState(
     "https://www.youtube.com/embed/7k4E6ZveXkI?si=q13MoBvkdhEbuuDA"
   );
 
   function blockIframe() {
     const iframe = iframeRef.current;
     if (iframe) {
-      iframe.src = ""; // Set the src attribute to an empty string
+      iframe.src = "";
     }
   }
 
   function resetIframe() {
     const iframe = iframeRef.current;
     if (iframe) {
-      iframe.src = originalSrc; // Set the src attribute back to the original value
+      iframe.src = originalSrc;
     }
   }
 
@@ -34,9 +37,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div >
+    <div>
       <Helmet>
-        <title>Best Educational Management System - Capobrain</title>
+        <title>Best Educational Institutes Management System - Capobrain</title>
         {/* open grapgh tag */}
         <meta property="og:title" content="Home" />
         <meta property="og:description" content="CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents.." />
@@ -57,7 +60,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "url": "https://capobrain.com/",
-            "name": "Capobrain",
+            "name": "capobrain",
             "description": "CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents.." ,
             "potentialAction": {
               "@type": "SearchAction",
@@ -81,73 +84,61 @@ export default function Home() {
 
       {/* <!-- Carousel Start --> */}
       <div
-        className="background-img"
-        // style={{ backgroundImage: `url(${"img/bg00.jpg"})` }}
-        style={{backgroundColor:"#133D78"}}
+        className="mainHeader-bg-color"
       >
-        {/* <div className="color-overlay"> */}
-        <div className="">
+        <div className="mainHeader-overlay shapeSet">
+          <div className="headerShape">
+            <div className="shape1"></div>
+            <div className="shape2"></div>
+            <div className="shape3"></div>
+            <div className="shape4"></div>
+          </div>
           <div className="container">
-            <div className="row d-flex align-items-center justify-content-between">
-              <div className="col-md-6 mt-5 mb-5 text-white animate__animated animate__zoomIn">
+            <div className="row d-flex py-5 align-items-center justify-content-between">
+              <div className="col-md-6 mt-5 mb-5 mainHeaderCol">
                 <h1
-                  className="text-white"
-                  style={{ fontSize: 60, fontWeight: "bolder" }}
+                  className="head-h1"
                 >
-                  <span style={{ fontSize: 50, fontWeight: 300,color:"white" }}>
-                    Get Rid Of
-                  </span>
-                  <br />
-                  <span
-                    style={{
-                      textShadow: " 2px 6px 4px rgba(0, 0, 0, 0.5)",
-                    }}
-                  >
-                    Managing
-                  </span>{" "}
-                  <br />
-                  <span style={{ fontSize: 50, fontWeight: 300,color:"white" }}>
-                    Your School
-                  </span>{" "}
-                  <br /> Manually
+                  Simplify Your  <br /> <span> School & College</span> <br /> Management with Ease
                 </h1>
-                <p>
+                <p style={{ color: "initial" }}>
                   Familiarize yourself with the world of education and gain
                   knowledge on academic advancements related to teachers,
                   students, parents, and school administration.
                 </p>
                 <div className="row">
-                  <div className="col-md-3">
-                    <i className="fa-solid fa-arrow-right me-2"></i>
+                  <div className="col-md-5 col-6">
                     <Link
                       type="button"
-                      className="text-white mt-2"
+                      className="mt-2 btnFill"
                       to='/contact'
-                      style={{ textDecoration: "underline" }}
                     >
+                      <i className="fa-solid fa-arrow-right me-2 moveIcon text-white"></i>
                       Contact Us
                     </Link>
                   </div>
-                  <div className="col-md-3 col-12">
-                    <i className="fa-solid fa-arrow-right me-2"></i>
+                  <div className="col-md-5 col-6">
                     <Link
                       type="button"
-                      className="text-white mt-2"
+                      className="mt-2 btnFill"
                       data-bs-toggle="modal"
                       data-bs-target="#video"
                       to="/video"
-                      style={{ textDecoration: "underline" }}
                       onClick={resetIframe}
                     >
+                      <i className="fa-solid fa-arrow-right me-2 moveIcon text-white"></i>
                       Demo Video
                     </Link>
                   </div>
                 </div>
               </div>
-              <div className="col-md-5 mb-2">
+              <div className="col-md-6 mb-2">
                 <img
-                  src="img/hero.png"
+                  src={headerImg}
                   className="img-fluid"
+                  loading="lazy"
+                  width="600"
+                  height="400"
                   alt="school management software"
                 />
               </div>
@@ -160,43 +151,31 @@ export default function Home() {
       {/* <!-- About Start --> */}
       <div className="container-fluid py-2">
         <div className="container py-5">
-          <div className="row g-5 reverse-order">
-            <div
-              className="col-lg-6 col-md-12"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-easing="ease-in-out"
-            >
-              <div>
-                <img
-                  src="img/about capobrain.png"
-                  className="img-fluid"
-                  alt="school management software"
-                />
-              </div>
+          <div className="row">
+            <div className="col-md-6">
+              <img src={aboutSection} alt="about-section-imge" width="500" height="400" className="img-fluid"></img>
             </div>
             <div
-              className="col-lg-6 col-md-12"
+              className="col-md-6"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              style={{ backgroundColor: "rgb(246 249 255)" }}
+              width="600"
+              height="400"
             >
               <div className="about-item pt-3 pb-3">
-                <h1 className="display-6 mb-2">
-                  Welcome To Educational
-                  <span> Management Software</span>
+                <h1 className="mb-2">
+                  Welcome To Educational Institutes Management Software
                 </h1>
-                <p style={{ textAlign: "justify" }}>
-                  CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents in educational institutions. Its intuitive interface and robust capabilities make managing student information, scheduling classes, and tracking attendance straightforward. This academic software also includes features for educators to create and assign tasks and for parents to stay updated on their child's progress. Our online education software is a comprehensive solution tailored to meet the unique needs of educational institutions, from schools to colleges and universities. Designed to simplify administrative processes and enrich the learning journey, our software empowers educators and administrators alike. With features like attendance management, grade tracking, and communication tools, this education software provides a seamless platform for efficient operations in any educational setting. Explore the future of education management with our online school software.
-                </p>
-                <div className="">
-                  <i className="fa-solid fa-arrow-right me-2"></i>
+                <p style={{ textAlign: "justify" }}> Introducing Capobrain, the ultimate school software designed to streamline operations and enhance efficiency for educational institutions. Whether you are managing a bustling school or a sprawling university, our school management system integrates all aspects of campus life. From student admissions and attendance tracking to staff management and curriculum planning, Capobrain simplifies complex administrative tasks, making it the ideal solution for modern educational environments.</p>
+                <p style={{ textAlign: "justify" }}>Capobrain stands out as a comprehensive college management system, offering unparalleled features tailored for higher education. Our campus management system ensures seamless coordination between departments, providing tools for financial management, resource allocation, and academic scheduling. By leveraging Capobrain, educational institutions can foster a more organized, productive, and connected community, revolutionizing the way schools and colleges operate.</p>
+                <div className="text-center">
                   <Link
                     type="button"
+                    className="btnFill"
                     to='/about'
-                    style={{ textDecoration: "underline" }}
                   >
+                    <i className="fa-solid fa-arrow-right me-2 moveIcon text-white"></i>
                     Read More
                   </Link>
                 </div>
@@ -210,6 +189,8 @@ export default function Home() {
       <Service />
       <Pricing />
       <Logo />
+      <Benefits />
+      <ChooseUs />
       <Testimonial />
 
       {/* video modal */}
@@ -239,6 +220,7 @@ export default function Home() {
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  loading="lazy"
                   allowFullScreen
                 ></iframe>
               </div>

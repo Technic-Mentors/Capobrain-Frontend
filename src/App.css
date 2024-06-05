@@ -1,7 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* App.css */
 body {
   font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+p {
+  font-family: "Heebo", sans-serif;
+  font-weight: 300;
+}
+
+.head-h1 {
+  font-size: 50px !important;
+  font-weight: 600;
+  line-height: 3.7rem;
+  z-index: 2;
+}
+
+.head-h1 span {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: var(--primary-color) !important;
+  -webkit-text-stroke: thin;
+  font-size: 65px;
+  font-weight: 700;
+}
+
+:root {
+  --primary-color: #fe5638;
 }
 
 h1,
@@ -10,18 +41,25 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgb(19, 61, 120);
-  font-family: 'Nunito', sans-serif;
+  color: #fe5538;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-h1 span,
-h2 span,
-h3 span {
-  color: #00B6C7;
+h1 {
+  font-size: 30px !important;
+  font-weight: 600;
 }
 
-.manual-h1 {
-  color: #00B6C7;
+.p-color {
+  color: rgba(120, 84, 246, 1);
+}
+
+.p-bg-color {
+  background-color: rgb(224, 216, 253);
+}
+
+h1 {
+  font-size: 30px;
 }
 
 .blog-btn {
@@ -32,6 +70,26 @@ h3 span {
   .blog-btn {
     margin: 0 0;
   }
+}
+
+.mainHeader-bg-color {
+  background-image: url(./img/capobrainHeader.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainHeader-overlay {
+  background-color: rgba(230, 225, 255, .95);
+}
+
+@media (min-width:600px) {
+  .mainHeaderCol {
+    padding: 0 20px;
+  }
+}
+
+.mainHeader-bg-color h1 {
+  color: initial;
 }
 
 .py-6 {
@@ -119,7 +177,7 @@ h3 span {
 }
 
 i {
-  color: #00B6C7;
+  color: #fe5638;
 }
 
 .background-img {
@@ -171,7 +229,7 @@ i {
 
 .background-image2 {
   position: relative;
-  background-image: url("/public/img/bg01.jpg");
+  background-image: url("/public/img/bg01.avif");
   top: 0;
   left: 0;
   width: 100%;
@@ -190,7 +248,7 @@ i {
 }
 
 .background-image7 {
-  background-image: url("/public//img/bg01.jpg");
+  background-image: url("/public//img/bg01.avif");
   position: relative;
   top: 0;
   left: 0;
@@ -236,7 +294,7 @@ i {
 
 .background-img3 {
   position: relative;
-  background-image: url("/src/img/b1.jpg");
+  background-image: url("/src/img/b1.avif");
   top: 0;
   left: 0;
   width: 100%;
@@ -265,7 +323,7 @@ i {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/src/img/b1.jpg");
+  background-image: url("/src/img/b1.avif");
 }
 
 .color-overlay05 {
@@ -572,7 +630,7 @@ i {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-  color: #00B6C7 !important;
+  color: var(--primary-color) !important;
 }
 
 
@@ -820,7 +878,7 @@ i {
 /*** Services Start ***/
 
 .services .services-item3 {
-  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  box-shadow: 4px 6px 10px -2px #fe5638;
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -836,7 +894,7 @@ i {
   top: 0;
   left: 0;
   border-radius: 10px 10px 0 0;
-  background: #133D78;
+  background: #fe5638;
   transition: .5s;
 }
 
@@ -862,7 +920,7 @@ i {
 }
 
 .services-item3:hover .services-content-icon3 h5 {
-  color: #00B6C7;
+  color: white;
 }
 
 .services-item3:hover .services-content-icon3 p {
@@ -1019,7 +1077,8 @@ i {
   right: -140px;
   transition: 1s;
 }
-.blog-btn-text:hover{
+
+.blog-btn-text:hover {
   background-color: #133D78;
   color: white;
 }
@@ -1174,6 +1233,16 @@ i {
   transition: .5s;
 }
 
+.testimonial-item {
+  padding: 25px !important;
+}
+
+@media (max-width:550px) {
+  .testimonial-item {
+    padding: 10px !important;
+  }
+}
+
 .testimonial-carousel .owl-item.center .testimonial-text * {
   color: var(--light) !important;
 }
@@ -1222,6 +1291,7 @@ i {
 
 .short-link a {
   text-decoration: none;
+  color: initial;
 }
 
 @media (max-width : 768px) {
@@ -1253,4 +1323,411 @@ i {
 .blog-container h6 {
   text-align: left;
   /* or any other value you want for headings */
+}
+
+.elevateGreeing {
+  background-image: url(../src/img/restaurants-intro-bg-img.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.elevateGreeing-overlay {
+  background-color: rgba(245, 247, 251, .95);
+}
+
+h4,
+h5 {
+  color: #00b6c7;
+}
+
+.client-img {
+  box-shadow: 0 0 40px rgba(204, 204, 204, .3);
+}
+
+.testimonialBg {
+  background-image: url(../src/img/testomonial-imge.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial-item {
+  background-color: rgba(0, 182, 199, .35);
+}
+
+.occupation {
+  color: #fe5538;
+}
+
+.footer {
+  background-color: #f5f7fb;
+}
+
+.footerBg {
+  background-color: #00B6C7;
+}
+
+.home-container {
+  background-image: url(./img/allPageHeader.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-container-overlay {
+  background-color: rgba(230, 225, 255, .95);
+}
+
+/* FAQ CSS */
+.faq {
+  padding: 10px 0;
+  position: relative;
+}
+
+.faq .faq-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .faq-list li {
+  border-bottom: 1px solid #d4e5fc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.faq .faq-list .question {
+  display: block;
+  position: relative;
+  font-family: #106eea;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 25px;
+  cursor: pointer;
+  color: #0d58ba;
+  transition: 0.3s;
+}
+
+.faq .faq-list i {
+  font-size: 16px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.faq .faq-list p {
+  margin-bottom: 0;
+  padding: 10px 0 0 25px;
+}
+
+.faq .faq-list .icon-show {
+  display: none;
+}
+
+.faq .faq-list .collapsed {
+  color: black;
+}
+
+.faq .faq-list .collapsed:hover {
+  color: #106eea;
+}
+
+.faq .faq-list .collapsed .icon-show {
+  display: inline-block;
+  transition: 0.6s;
+}
+
+.faq .faq-list .collapsed .icon-close {
+  display: none;
+  transition: 0.6s;
+}
+
+.supportImg {
+  position: fixed;
+  width: 80px;
+  bottom: 12%;
+  right: 1%;
+  z-index: 100;
+}
+
+.btn1 {
+  background-color: #00b6c7;
+  color: white;
+}
+
+.profileLink h5 {
+  line-height: 2.6rem;
+  color: #616161 !important;
+}
+
+.profileLink h5 i {
+  font-size: 15px;
+}
+
+.divider {
+  background-color: red;
+  border: 0;
+  height: 2px !important;
+}
+
+.divider1 {
+  margin-top: -1%;
+}
+
+@keyframes shapeAnimation {
+  0% {
+    transform: scale(0.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.shapeSet {
+  position: relative;
+}
+
+.headerShape {
+  content: "";
+  position: absolute;
+  content: "";
+  top: 10%;
+  left: -2%;
+}
+
+.shape1,
+.shape2,
+.shape3,
+.shape4 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid #26e4f5;
+  animation: shapeAnimation 4s linear infinite;
+}
+
+.shape2 {
+  animation-delay: 1s;
+}
+
+.shape3 {
+  animation-delay: 2s;
+}
+
+.shape4 {
+  animation-delay: 3s;
+}
+
+.btnFill {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btnFill:hover {
+  color: #04747e;
+}
+
+@keyframes moveIcon {
+  0% {
+    transform: translateX(-7px);
+    color: var(--primary-color);
+  }
+
+  50% {
+    color: white;
+  }
+
+  100% {
+    transform: translateX(0);
+    color: var(--primary-color);
+  }
+}
+
+.moveIcon {
+  animation: moveIcon 2s linear infinite;
+}
+
+.benefits li {
+  list-style: none;
+}
+
+.benefits {
+  background-image: url(../src/img/restaurants-intro-bg-img.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.benfits-overlay {
+  background-color: rgba(245, 247, 251, .95);
+}
+
+@media (min-width:600px) {
+  .benefitsCol1 {
+    position: relative;
+  }
+
+  .benefitsCol1::after {
+    content: "";
+    position: absolute;
+    top: 13%;
+    right: 2%;
+    width: 3px;
+    height: 30%;
+    background-color: var(--primary-color);
+  }
+
+  .benefitsCol1::before {
+    content: "";
+    position: absolute;
+    top: 55%;
+    right: 2%;
+    width: 3px;
+    height: 30%;
+    background-color: var(--primary-color);
+  }
+}
+
+.chooseSection .card {
+  position: relative;
+  height: 100%;
+}
+
+.chooseSection .card i {
+  content: "";
+  position: absolute;
+  top: -11%;
+  left: 43%;
+  background-color: #fe5538;
+  box-shadow: 0px 6px 13px rgba(254, 85, 56, .6);
+  color: white;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chooseSection .card h5 {
+  text-align: center;
+}
+
+.chooseSection .card p {
+  text-align: center;
+}
+
+.chooseSection .card::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #fe5538;
+  transition: 0.6s ease;
+  top: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transform: scaleX(0) scaleY(0);
+  border-radius: 5px;
+}
+
+.chooseSection .card-body {
+  z-index: 2;
+}
+
+.chooseSection .card:hover h5,
+.chooseSection .card:hover p {
+  color: white;
+}
+
+.chooseSection .card:hover::before {
+  transform: scaleX(1) scaleY(1);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.formButton a {
+  text-decoration: underline !important;
+}
+
+.helpForm {
+  padding: 0 55px;
+}
+
+.helpForm input {
+  border: 1px solid #fe5638;
+}
+
+.messages input {
+  border: none;
+}
+
+.messages {
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+
+.messages button {
+  color: var(--primary-color);
+}
+
+.messageDisplay {
+  display: inline-block;
+  background-color: #d7f9fd;
+  color: black;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.btnOwner {
+  background-color: #00B6C7;
+  color: dark;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.profile-position {
+  position: relative;
+}
+
+.profile-set {
+  position: absolute;
+  top: 10%;
+  right: 1%;
+  z-index: 3;
+}
+
+.profile-set h3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00B6C7;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: white;
+}
+.AbouteducationMange{
+  box-shadow: 0px 0px 20px black;
+}
+.help-card i{
+  font-size: 22px;
+}
+.help-card p{
+  color: initial;
+}
+.help_points{
+  line-height: 2rem;
+}
+.help-bg{
+  background-color: #f5f7fb;
+}
+.geneTicketLink{
+  text-decoration: underline !important;
 }

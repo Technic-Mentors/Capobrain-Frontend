@@ -57,7 +57,7 @@ export default function Classes() {
 
       <h1 className='manual-h1'>Classes</h1>
       <p>You will enter all the classes offered by your school in this. After choosing the branch, enter each class one at a time. Classes can be added in accordance with the branches.</p>
-      <img src="/img/Add-Class.png" className='img-fluid' alt="Add-Class" />
+      <img src="/img/Add-Class.avif" className='img-fluid' alt="Add-Class" />
     </div>
   )
 }

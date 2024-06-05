@@ -49,7 +49,7 @@ export default function Schooltiming() {
 
       <h1 className='manual-h1'>School Timing</h1>
       <p>In school timing, select the branch name before entering the start or end time. Anything can be added or changed at any moment. The School Manage module displays the school information that was added by the super admin, and all of the fields are read-only; you cannot alter anything. It can be changed by the super admin.</p>
-      <img src="/img/Add-School-Timing.png" className='img-fluid' alt="Add-School-Timing" />
+      <img src="/img/Add-School-Timing.avif" className='img-fluid' alt="Add-School-Timing" />
     </div>
   )
 }

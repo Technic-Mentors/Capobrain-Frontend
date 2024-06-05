@@ -49,7 +49,7 @@ export default function Phonecall() {
 
       <h1 className='manual-h1'>Call Log</h1>
       <p>There is an option in the call log to enter all incoming and outgoing school calls. In this module, you must enter the person's name, phone number, duration of the call, and call status to complete the call's details. In Add call log all the fields are mandatory and it will show you the list of all the call detail.</p>
-      <img src="/img/Call-log.png" className='img-fluid' alt="Add-Call-Log" />
+      <img src="/img/Call-log.avif" className='img-fluid' alt="Add-Call-Log" />
     </div>
   )
 }

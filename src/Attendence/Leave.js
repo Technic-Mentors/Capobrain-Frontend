@@ -49,7 +49,7 @@ export default function Leave() {
 
       <h1 className='manual-h1'>Leave Request</h1>
       <p>If a student or teacher wants to take a leave and applied for it through their portal, this is the option that school users can view. School users have the right to accept or reject the leave request, and the status of the leave can be viewed through their portals.</p>
-      <img src="/img/Update-Leave.png" className='img-fluid' alt="Update-Leave" />
+      <img src="/img/Update-Leave.avif" className='img-fluid' alt="Update-Leave" />
     </div>
   )
 }

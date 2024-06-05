@@ -49,7 +49,7 @@ export default function Studentcerti() {
 
       <h1 className='manual-h1'>Student Certificate</h1>
       <p>In student certificate, it will show you the list of all the student with proper information Branch, student ID, name, Gender, Class, Section, Father name, B-form No  but in action field it shows the status “Not Available” because the certificate will be available only in the case when we configure first. </p>
-      <img src="/img/Student-Certificate.png" className='img-fluid' alt="Student-Certificate" />
+      <img src="/img/Student-Certificate.avif" className='img-fluid' alt="Student-Certificate" />
     </div>
   )
 }

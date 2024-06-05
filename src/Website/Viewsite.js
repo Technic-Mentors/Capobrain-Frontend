@@ -49,7 +49,7 @@ export default function Viewsite() {
 
       <h1 className='manual-h1'>Visit Website</h1>
       <p>Simply select this option, and it will display the website's front page that was created using the information from your website. On the website, you may see information about the company, file a complaint with the school, apply for admission online, and access news, a photo gallery, upcoming events, and course information. Any changes you make in the backend will also update the front end.</p>
-      <img src="/img/Visit-Website.png" className='img-fluid' alt="Visit-Website" />
+      <img src="/img/Visit-Website.avif" className='img-fluid' alt="Visit-Website" />
     </div>
   )
 }

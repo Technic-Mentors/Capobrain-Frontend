@@ -49,7 +49,7 @@ export default function Aboutus() {
 
       <h1 className='manual-h1'>About  Us</h1>
       <p>This module will contain the information of about us page. What kind of image or title you want to display on it. First you will add title, content picture, banner and description and then save it. It will update the information on about us page of the website. You can view, edit, and delete this information too.</p>
-      <img src="/img/Add-School-About-Detail.png" className='img-fluid' alt="Add-School-About-Detail" />
+      <img src="/img/Add-School-About-Detail.avif" className='img-fluid' alt="Add-School-About-Detail" />
     </div>
   )
 }

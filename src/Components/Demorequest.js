@@ -10,7 +10,7 @@ export default function Demorequest() {
   const [editId, setEditId] = useState([])
   const fetachAllUsers = async () => {
     await fetch(
-      "http://localhost:8001/api/auth/getallusers",
+      "https://capobrain-backend.vercel.app/api/auth/getallusers",
       {
         method: "GET",
       }
@@ -23,7 +23,7 @@ export default function Demorequest() {
   });
   const viewuser = (id) => {
     console.log(id);
-    fetch(`http://localhost:8001/api/auth/getusers/${id}`, {
+    fetch(`https://capobrain-backend.vercel.app/api/auth/getusers/${id}`, {
       method: "GET",
     })
       .then((res) => res.json())
@@ -33,7 +33,7 @@ export default function Demorequest() {
   };
 
   const edituser = (id) => {
-    fetch(`http://localhost:8001/api/auth/getusers/${id}`, {
+    fetch(`https://capobrain-backend.vercel.app/api/auth/getusers/${id}`, {
       method: "GET",
     })
       .then((res) => res.json())
@@ -44,7 +44,7 @@ export default function Demorequest() {
   };
 
   const updateuser = () => {
-    fetch(`http://localhost:8001/api/auth/getusers/${editId}`, {
+    fetch(`https://capobrain-backend.vercel.app/api/auth/getusers/${editId}`, {
       method: "GET",
     })
       .then((res) => res.json())
@@ -74,7 +74,7 @@ export default function Demorequest() {
       return result;
     });
     if (isConfirmed) {
-      fetch(`http://localhost:8001/api/auth/deluser/${id}`, {
+      fetch(`https://capobrain-backend.vercel.app/api/auth/deluser/${id}`, {
         method: "DELETE",
       });
     }

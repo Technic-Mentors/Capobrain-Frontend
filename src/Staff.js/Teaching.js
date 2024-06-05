@@ -70,7 +70,7 @@ export default function Teaching() {
           equal to 300 KB.
         </li>
       </ul>
-      <img src="/img/Add-Teacher.png" className="img-fluid" alt="Add-Teacher" />
+      <img src="/img/Add-Teacher.avif" className="img-fluid" alt="Add-Teacher" />
     </div>
   );
 }

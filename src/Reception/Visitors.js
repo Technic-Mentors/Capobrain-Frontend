@@ -77,7 +77,7 @@ export default function Visitors() {
         <li>Non-mandatory fields are optional and can be skipped</li>
       </ul>
 
-      <img src="/img/Add-Visitors-Meeting.jpg" className="img-fluid" alt="Add-Visitors-Meeting" />
+      <img src="/img/Add-Visitors-Meeting.avif" className="img-fluid" alt="Add-Visitors-Meeting" />
     </div>
   );
 }

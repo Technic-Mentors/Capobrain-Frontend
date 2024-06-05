@@ -57,8 +57,8 @@ export default function UserSignup() {
         console.log(data)
         if (res.ok) {
             navigate("/demo")
+            sessionStorage.setItem("signUser", JSON.stringify(data.user))
         }
-        sessionStorage.setItem("signUser", JSON.stringify(data.user))
 
         emailjs
             .sendForm(

@@ -7,12 +7,14 @@ export default function Footer() {
   if (
     location.pathname === "/login" ||
     location.pathname === "/signup" ||
-    location.pathname === "/admin/addblog" ||
-    location.pathname === "/admin/allposts" ||
-    location.pathname === "/admin/allcategory" ||
-    location.pathname === "/admin/addcategory" ||
-    location.pathname === "/admin/demoUsers" ||
-    location.pathname === "/admin/board"
+    location.pathname === "/adminPanel/addblog" ||
+    location.pathname === "/adminPanel/allposts" ||
+    location.pathname === "/adminPanel/allcategory" ||
+    location.pathname === "/adminPanel/addcategory" ||
+    location.pathname === "/adminPanel/demoUsers" ||
+    location.pathname === "/adminPanel/tickets" ||
+    location.pathname === "/userLogin" ||
+    location.pathname === "/adminPanel/board"
   ) {
     return null;
   }
@@ -27,21 +29,21 @@ export default function Footer() {
       <div>
         {/* <!-- Footer Start --> */}
         <div
-          className="background-img3 footer wow fadeIn"
+          className="footer"
           // style={{ backgroundImage: `url(${"img/b1.jpg"})` }}
           data-wow-delay=".3s"
         >
-          <div className="color-overlay3">
+          <div>
             <div className="container pb-4">
               <div className="row d-flex justify-content-between">
                 <div className="col-lg-4 mt-5 col-md-6">
                   <h3
-                    className="h3 fw-bold d-block text-white"
+                    className="fw-bold d-block"
                   >
-                    Capo<span>Brain</span>{" "}
+                    CapoBrain
                   </h3>
                   <p
-                    className="mt-4 text-white"
+                    className="mt-4"
                     style={{ textAlign: "justify", fontSize: "15px" }}
                   >
                     Capobrain is the most advanced AI-Powered education
@@ -54,13 +56,13 @@ export default function Footer() {
                   </p>
                 </div>
                 <div className="col-lg-3 mt-5 col-md-6">
-                  <h3 className="h4" style={{ color: "#00B6C7" }}>
+                  <h3>
                     Short Link
                   </h3>
                   <div className="mt-4 d-flex flex-column short-link">
                     <Link
                       to="/"
-                      className="mb-2 text-white"
+                      className="mb-2"
                       style={{ fontSize: "15px" }}
                       onClick={() => handleClick("/")}
                     >
@@ -69,7 +71,7 @@ export default function Footer() {
                     </Link>
                     <Link
                       to="/about"
-                      className="mb-2 text-white"
+                      className="mb-2"
                       style={{ fontSize: "15px" }}
                       onClick={() => handleClick("/about")}
                     >
@@ -78,7 +80,7 @@ export default function Footer() {
                     </Link>
                     <Link
                       to="/features"
-                      className="mb-2 text-white"
+                      className="mb-2"
                       style={{ fontSize: "15px" }}
                       onClick={() => handleClick("/features")}
                     >
@@ -87,7 +89,7 @@ export default function Footer() {
                     </Link>
                     <Link
                       to="/user-manual"
-                      className="mb-2 text-white"
+                      className="mb-2"
                       style={{ fontSize: "15px" }}
                       onClick={() => handleClick("/manual")}
                     >
@@ -96,7 +98,7 @@ export default function Footer() {
                     </Link>
                     <Link
                       to="/contact"
-                      className="mb-2 text-white"
+                      className="mb-2"
                       style={{ fontSize: "15px" }}
                       onClick={() => handleClick("/contact")}
                     >
@@ -105,7 +107,7 @@ export default function Footer() {
                     </Link>
                     <Link
                       to="/blog"
-                      className="mb-2 text-white"
+                      className="mb-2"
                       style={{ fontSize: "15px" }}
                       onClick={() => handleClick("/blog")}
                     >
@@ -113,17 +115,8 @@ export default function Footer() {
                       Blog
                     </Link>
                     <Link
-                      to="/demo"
-                      className="mb-2 text-white"
-                      style={{ fontSize: "15px" }}
-                      onClick={() => handleClick("/demo")}
-                    >
-                      <i className="fas fa-angle-right  me-2"></i>
-                      Request a Demo
-                    </Link>
-                    <Link
                       to="/login"
-                      className="mb-2 text-white"
+                      className="mb-2"
                       style={{ fontSize: "15px" }}
                       onClick={() => handleClick("/signup")}
                     >
@@ -133,25 +126,25 @@ export default function Footer() {
                   </div>
                 </div>
                 <div className="col-lg-4 mt-5 col-md-6">
-                  <h3 className="h3" style={{ color: "#00B6C7" }}>
+                  <h3>
                     Contact Us
                   </h3>
-                  <div className="text-white mt-4 d-flex flex-column contact-link">
+                  <div className="mt-4 d-flex flex-column contact-link">
                     <adiv
-                      className="pb-2 text-white"
+                      className="pb-2"
                       style={{ fontSize: "15px" }}
                     >
                       <i className="fas fa-map-marker-alt  me-2"></i> Mumtaz
                       Market, Main GT Road, Gujranwala
                     </adiv>
                     <div
-                      className="py-2 text-white"
+                      className="py-2"
                       style={{ fontSize: "15px" }}
                     >
                       <i className="fa fa-phone me-2"></i> +923 111 122 144
                     </div>
                     <div
-                      className="py-2 mb-2 text-white"
+                      className="py-2 mb-2"
                       style={{ fontSize: "15px" }}
                     >
                       <i className="fas fa-envelope  me-2"></i>{" "}
@@ -213,14 +206,13 @@ export default function Footer() {
         {/* <!-- Footer End --> */}
       </div>
       <div
-        className="container-fluid pt-3 pb-3"
-        style={{ backgroundColor: "#133D78" }}
+        className="container-fluid footerBg pt-3 pb-3"
       >
         <div className="container">
           <div className="row d-flex justify-content-between">
             <div className="col-md-6">
               <span className="text-white" style={{ fontSize: "15px" }}>
-                <span style={{ color: "#00B6C7" }}>
+                <span>
                   <i className="fas fa-copyright text-white me-2"></i>
                   Capobrain
                 </span>
@@ -231,7 +223,7 @@ export default function Footer() {
                 Developed With Love By
                 <a
                   href="https://technicmentors.com/"
-                  style={{ color: "#00B6C7" }}
+                  style={{ color: "initial" }}
                   target="blank"
                 >
                   {" "}

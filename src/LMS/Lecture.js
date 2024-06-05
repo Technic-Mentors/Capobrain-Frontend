@@ -49,7 +49,7 @@ export default function Lecture() {
 
       <h1 className='manual-h1'>Lecture</h1>
       <p>Lectures are the first module of an LMS. In this section, you will include lecture details for any subject so that students can access them via their portal. You will choose a branch, class, section, and subject before adding a lecture description. Following that, you will be able to view, change, and remove this lecture as well. </p>
-      <img src="/img/Add-Lecture-Detail.png" className='img-fluid' alt="Add-Lecture-Detail" />
+      <img src="/img/Add-Lecture-Detail.avif" className='img-fluid' alt="Add-Lecture-Detail" />
     </div>
   )
 }

@@ -49,7 +49,7 @@ export default function Roles() {
 
       <h1 className='manual-h1'>Roles</h1>
       <p>Before adding any users, the roles must first be created. because when adding a user, you may choose their role. Therefore, you will just declare the roles in this module. You may also view, edit, and remove this position.</p>
-      <img src="/img/Add-Role.png" className='img-fluid' alt="Add-Role" />
+      <img src="/img/Add-Role.avif" className='img-fluid' alt="Add-Role" />
     </div>
   )
 }

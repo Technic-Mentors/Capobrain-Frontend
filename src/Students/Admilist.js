@@ -62,7 +62,7 @@ export default function Admilist() {
           equal to 300 KB.
         </li>
       </ul>
-      <img src="/img/Student-List.png" className="img-fluid" alt="Student-List" />
+      <img src="/img/Student-List.avif" className="img-fluid" alt="Student-List" />
     </div>
   );
 }

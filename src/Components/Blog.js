@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useMemo, useState } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import MyContext from "../ContextApi/MyContext";
@@ -9,7 +9,7 @@ export default function Blog() {
   return (
     <div style={{ overflowX: "hidden" }}>
       <Helmet>
-        <title>Articles - Capobrain</title>
+        <title>Blogs - Capobrain</title>
         {/* open grapgh tag */}
         <meta property="og:title" content="Blogs" />
         <meta property="og:description" content="CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents.." />
@@ -52,12 +52,26 @@ export default function Blog() {
         <meta name="description" content="CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents.." />
       </Helmet>
 
-      <div style={{ backgroundColor: "#133D78" }}>
-        <div className="d-flex align-items-center justify-content-center">
-          <div>
-            <h1 className="head text-center text-white animate__animated animate__zoomIn py-6">
-              Blog Section
-            </h1>
+      <div className="home-container">
+        <div className="home-container-overlay">
+          <div className="container">
+            <div className="row d-flex align-items-center justify-content-center px-5">
+              <div className="col-md-9">
+                <div
+                >
+                  <div className="py-6">
+                    <div>
+                      <h1 className="text-center animate__animated animate__zoomIn">
+                        Blog Section
+                      </h1>
+                      <p>In this dedicated space, we invite you to explore a treasure trove of articles, tips, and stories crafted to inspire,
+                        inform, and entertain. Whether you're seeking expert advice, industry trends, or simply looking for a good read,
+                        our blog is your destination.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -100,7 +114,7 @@ export default function Blog() {
                         <div className="card-body">
                           <h5
                             className="card-title"
-                            style={{ fontWeight: "normal" }}
+                            style={{ fontWeight: "normal", color: "initial" }}
                           >
                             {post.title.length > 40 ? post.title.slice(0, 40) + "..." : post.title}
                           </h5>

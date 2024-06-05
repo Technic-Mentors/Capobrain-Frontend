@@ -91,7 +91,7 @@ export default function Demo() {
   };
   const userSend = async () => {
     const { name, email, schoolname, phoneno, message } = credentials;
-    await fetch("http://localhost:8001/api/auth/createuser", {
+    await fetch("https://capobrain-backend.vercel.app/api/auth/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -49,7 +49,7 @@ export default function Purchase() {
 
       <h1 className='manual-h1'>Purchase List</h1>
       <p>In the purchase list, it will display a list of all purchases, as well as an action column that displays the invoice when we click on the invoice icon, it will display the appropriate invoice for that transaction.</p>
-      <img src="/img/Purchase-List.png" className='img-fluid mt-5' alt="Purchase-List" />
+      <img src="/img/Purchase-List.avif" className='img-fluid mt-5' alt="Purchase-List" />
     </div>
   )
 }

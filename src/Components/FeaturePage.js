@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import headerImg from "../img/header-img.webp"
 
 export default function FeaturePage() {
   useEffect(() => {
@@ -12,7 +13,7 @@ export default function FeaturePage() {
   return (
     <div>
       <Helmet>
-        <title>Features Highlights Of Best Education Software</title>
+        <title>Features Highlights Of Best Educational Institutes Management Software</title>
         {/* open grapgh tag */}
         <meta property="og:title" content="Capobrain Features" />
         <meta property="og:description" content="Discover the innovative features that set Capobrain apart as a leading Education Management System (EMS). From streamlined enrollment and automated attendance.." />
@@ -56,20 +57,24 @@ export default function FeaturePage() {
       </Helmet>
 
       <div className="home-container">
-        <div
-          className=""
-          style={{
-            backgroundColor:"#133D78"
-          }}
-        >
-          <div className="d-flex align-items-center justify-content-center">
-            <div>
-              <h1
-                className="head text-white text-center animate__animated animate__zoomIn py-6"
-              // style={{ fontSize: 60 }}
-              >
-                Ensuring AI-Powered Paperless Environment
-              </h1>
+        <div className="home-container-overlay">
+          <div className="container">
+            <div className="row d-flex align-items-center justify-content-between px-5">
+              <div className="col-md-6">
+                <div
+                >
+                  <div className="">
+                    <div>
+                      <h1 className="animate__animated animate__zoomIn">
+                        Ensuring AI-Powered Paperless Environment
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-5">
+                <img src={headerImg} alt="header-img" className="img-fluid"></img>
+              </div>
             </div>
           </div>
         </div>
@@ -83,224 +88,357 @@ export default function FeaturePage() {
           >
             <h2>
               {/* Our<span style={{ color: "#00B6C7" }}> Features</span>{" "} */}
-              Standout Features Of Our<span> Educational Management Software</span>{" "}
+              Standout Features Of Our<span> Educational Institutes Management Software</span>{" "}
             </h2>
           </div>
           <p className="mb-4" style={{ textAlign: "justify" }}>Discover the innovative features that set Capobrain apart as a leading Education Management System (EMS). From streamlined enrollment and automated attendance tracking to comprehensive grade management, our platform simplifies administrative tasks. Real-time communication tools foster collaboration among educators, students, and parents, while advanced analytics provide valuable insights for informed decision-making. Experience an efficient and transparent approach to school management with Capobrain.</p>
-          <div className="row g-5 services-inner">
+          <div className="row g-3 services-inner">
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
                     <i className="fa-solid fa-cloud fa-3x mb-4 "></i>
                     <h5 className="mb-3">Cloud-Based System</h5>
                     <p className="mb-4">
-                      Experience the flexibility and accessibility of our cloud-based school management system, enabling seamless and management from anywhere.
+                      Access Capobrain from anywhere with our secure and reliable cloud-based system, ensuring data is always up-to-date and accessible.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
                     <i className="fa-solid fa-memory fa-3x mb-4 "></i>
                     <h5 className="mb-3">Latest Cutting-Edge Technologies</h5>
                     <p className="mb-4">
-                      Stay ahead in education with our school management system, powered by the latest cutting-edge technologies.
+                      Experience unparalleled performance with Capobrain, utilizing the latest cutting-edge technologies to deliver a seamless and efficient management system.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
                     <i className="fa-solid fa-computer fa-3x mb-4 "></i>
                     <h5 className="mb-3">Computer-Based Exam Solutions</h5>
                     <p className="mb-4">
-                      Experience the future of testing with Computer-Based
-                      Exams, enhancing convenience and accuracy.
+                      Streamline your assessment process with Capobrain's computer-based exam solutions, offering automated grading and instant results for enhanced efficiency.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
-                    <i className="fa-solid fa-arrows-to-eye fa-3x mb-4 "></i>
-                    <h5 className="mb-3">AI Powered Evaluation System</h5>
+                    <i className="fas fa-robot fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Artificial Intelligence Based</h5>
                     <p className="mb-4">
-                      Experience efficient and accurate assessments with our Artificial Intelligence Powered Evaluation System, revolutionizing grading and feedback in education.
+                      Enhance decision-making and automate routine tasks with Capobrain's artificial intelligence-based features, providing intelligent insights and personalized experiences.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
                     <i className="fa-solid fa-file-shield fa-3x mb-4 "></i>
                     <h5 className="mb-3">Data Security</h5>
                     <p className="mb-4">
-                      Safeguard your school's sensitive information with robust <a href="https://urdustem.com/data-security-and-privacy-to-safeguard-your-information/" style={{textDecoration:"none"}}> data security</a> measures, ensuring the privacy and integrity of your institution's data.
+                      Safeguard sensitive information with Capobrain's robust data security measures, ensuring comprehensive protection and privacy for all users.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
-                    <i className="fas fa-laptop fa-3x mb-4 "></i>
-                    <h5 className="mb-3">Data Backup Facility</h5>
+                    <i className="fas fa-users fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Students & Parent Portals</h5>
                     <p className="mb-4">
-                      Ensure the safety of your school's valuable data with our reliable data backup facility, providing peace of mind for data preservation.
+                      Empower students and parents with Capobrain's dedicated portals, providing easy access to academic records, schedules, and communication tools.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
-                    <i className="fa-solid fa-camera-retro fa-3x mb-4 "></i>
-                    <h5 className="mb-3">Live Reporting</h5>
+                    <i className="far fa-calendar-alt fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Online Daily Diary</h5>
                     <p className="mb-4">
-                      Access real-time insights and make informed decisions with our live reporting feature, keeping your school management dynamic and responsive.
+                      Stay organized and informed with Capobrain's online daily diary feature, allowing students and teachers to record tasks, deadlines, and progress updates effortlessly.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
                     <i className="fa-solid fa-mobile-screen-button fa-3x mb-4 "></i>
-                    <h5 className="mb-3">Mobile App</h5>
+                    <h5 className="mb-3">Mobile App Support</h5>
                     <p className="mb-4">
-                      Stay connected on the go with our mobile app, offering convenient access to your school management system anytime, anywhere.
+                      Stay connected on the go with Capobrain's mobile app support, enabling access to key features and updates anytime, anywhere for ultimate convenience.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
                     <i className="fa-brands fa-whatsapp fa-3x mb-4 "></i>
-                    <h5 className="mb-3">WhatsApp Message Sending</h5>
+                    <h5 className="mb-3">WhatsApp Messaging</h5>
                     <p className="mb-4">
-                      Effortlessly reach out to students, parents, and staff with WhatsApp message sending, simplifying communication within your school community.
+                      Effortlessly communicate with students, parents, and staff through Capobrain's integrated WhatsApp messaging feature, facilitating instant updates and announcements.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
                     <i className="fa-solid fa-clipboard-user fa-3x mb-4 "></i>
                     <h5 className="mb-3">Biometric Attendance</h5>
                     <p className="mb-4">
-                      Enhance security and accuracy in attendance tracking with our biometric attendance feature, ensuring a reliable record of student and staff presence.
+                      Ensure accurate attendance tracking with Capobrain's biometric attendance feature, providing a secure and efficient method for monitoring student and staff presence.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
-                    <i className="fa-regular fa-bell fa-3x mb-4 "></i>
-                    <h5 className="mb-3">Alerts For Events And Accounts</h5>
+                    <i className="fas fa-money-check-alt fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Salary & Fee Management</h5>
                     <p className="mb-4">
-                      Stay informed and organized with event and account alerts, ensuring nothing important slips through the cracks in your school management system.
-                    </p>
+                      Efficiently manage salaries and fees with Capobrain's integrated system, simplifying payroll processing and financial transactions for staff and students alike.</p>
                   </div>
                 </div>
               </div>
             </div>
             <div
-              className="col-md-6 col-lg-4"
+              className="col-md-6 col-lg-3"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
             >
               <div className="services-item3 bg-light">
-                <div className="p-4 text-center services-content">
+                <div className="p-2 text-center services-content">
                   <div className="services-content-icon3">
-                    <i className="fas fa-link fa-3x mb-4 "></i>
-                    <h5 className="mb-3">Enhance parent-teacher connection</h5>
+                    <i className="fas fa-box-open fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Inventory Management</h5>
                     <p className="mb-4">
-                      Facilitate effortless communication between parents and instructors, fostering a strong partnership for student success.
-                    </p>
+                      Keep track of resources seamlessly with Capobrain's inventory management feature, enabling efficient monitoring and replenishment of school supplies and equipment.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-lg-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="services-item3 bg-light">
+                <div className="p-2 text-center services-content">
+                  <div className="services-content-icon3">
+                    <i className="fas fa-file-invoice-dollar fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Student & Staff Ledgers</h5>
+                    <p className="mb-4">
+                      Maintain detailed financial records for students and staff with Capobrain's ledger management feature, providing transparency and accuracy in accounting processes.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-lg-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="services-item3 bg-light">
+                <div className="p-2 text-center services-content">
+                  <div className="services-content-icon3">
+                    <i className="far fa-bell fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Reminders For Fee Collection</h5>
+                    <p className="mb-4">
+                      Never miss a payment deadline with Capobrain's fee collection reminder feature, ensuring timely notifications for students and parents to stay on top of financial obligations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-lg-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="services-item3 bg-light">
+                <div className="p-2 text-center services-content">
+                  <div className="services-content-icon3">
+                    <i className="fas fa-chart-pie fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Expense & Assets Management</h5>
+                    <p className="mb-4">
+                      Efficiently track expenses and manage assets with Capobrain's comprehensive management tools, providing insights and control over financial resources for optimized school operations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-lg-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="services-item3 bg-light">
+                <div className="p-2 text-center services-content">
+                  <div className="services-content-icon3">
+                    <i className="far fa-file-alt fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Online Paper Generation</h5>
+                    <p className="mb-4">
+                      Generate exams and assignments effortlessly with Capobrain's online paper generation feature, enabling teachers to create and distribute digital assessments with ease.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-lg-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="services-item3 bg-light">
+                <div className="p-2 text-center services-content">
+                  <div className="services-content-icon3">
+                    <i className="fas fa-clipboard-list fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Exams & Results Management</h5>
+                    <p className="mb-4">
+                      Streamline the examination process and manage results effectively with Capobrain's comprehensive exams and results management module, ensuring smooth administration.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-lg-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="services-item3 bg-light">
+                <div className="p-2 text-center services-content">
+                  <div className="services-content-icon3">
+                    <i className="fas fa-chart-bar fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Comprehensive Reporting</h5>
+                    <p className="mb-4">
+                      Gain insights with Capobrain's comprehensive reporting, offering analytics and customizable reports for informed school performance decisions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-lg-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="services-item3 bg-light">
+                <div className="p-2 text-center services-content">
+                  <div className="services-content-icon3">
+                    <i className="fas fa-sitemap fa-3x mb-4 "></i>
+                    <h5 className="mb-3">Multi Branches/ Campuses</h5>
+                    <p className="mb-4">
+                      Effortlessly manage multiple branches or campuses with Capobrain's integrated system, enabling centralized administration and coordination across diverse locations.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 col-lg-3"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div className="services-item3 bg-light">
+                <div className="p-2 text-center services-content">
+                  <div className="services-content-icon3">
+                    <i className="fas fa-globe fa-3x mb-4 "></i>
+                    <h5 className="mb-3">School/ College Front Website</h5>
+                    <p className="mb-4">
+                      Showcase your school or college with Capobrain's customizable front website feature, highlighting information, events, and achievements for a professional online presence.</p>
                   </div>
                 </div>
               </div>
@@ -312,19 +450,12 @@ export default function FeaturePage() {
 
       {/* contact start */}
       <div className="home-container">
-        <div
-          className="background-image3"
-          style={{
-            backgroundImage: `url(${"img/bg01.jpg"})`,
-          }}
-        >
-          <div className="color-overlay3 d-flex align-items-center justify-content-center">
+        <div className="home-container-overlay">
+          <div className="d-flex align-items-center justify-content-center">
             <div className="container">
               <div className="row d-flex align-items-center justify-content-between pt-5 pb-5 mt-3">
                 <div className="col-md-8">
-                  {/* <p
-                className="text-white"> CapoBrain Ensures AI-Powered Paperless Environment with Eye-catching design & User Friendly display, Don't Hesitate to ask us more about this Most Advanced Education Management Software!</p> */}
-                  <h4 className="text-white">Learn more about our advanced Education Management Software!
+                  <h4 style={{ color: "initial", fontSize: "35px", fontWeight: "bold" }}>Learn more about our advanced Education Management Software!
                   </h4>
                 </div>
                 <div className="col-md-3 text-center">
@@ -335,41 +466,12 @@ export default function FeaturePage() {
                   </Link>
                 </div>
               </div>
+              <hr className="divider" />
+              <hr className="divider divider1" />
             </div>
           </div>
         </div>
       </div>
-      {/* <div
-        className="background-img3"
-        style={{ backgroundImage: `url(${"img/b1.jpg"})` }}
-      >
-        <div className="color-overlay3">
-          <div className="container">
-            <div className="row d-flex align-items-center justify-content-between pt-5 pb-5">
-              <div className="col-md-8 py-3">
-                <h3 className="text-white">
-                  Empowering Education, Transforming Tomorrow with CapoBrain.So
-                  Don't Waste Time Connect With Us!!
-                </h3>
-              </div>
-              <div className="col-md-3">
-                <Link to="/contact">
-                  <button className="btn btn1 px-3 py-3 mb-2">
-                    Get In Touch With Us!!
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      {/* contact end */}
-      {/* <div
-        onClick={moveToTop}
-        className="btn btn1 btn-square rounded-circle back-to-top"
-      >
-        <i className="fa fa-arrow-up text-white"></i>
-      </div> */}
     </div>
   );
 }

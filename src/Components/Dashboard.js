@@ -47,7 +47,7 @@ export default function Dashboard() {
         <meta name="description" content="After logging in successfully, a dashboard will appear representing all the importing highlights regarding the school. We can filter this information by choosing the school branch." />
       </Helmet>
 
-      <h1 style={{ color: "#00B6C7" }}>Dashboard </h1>
+      <h1>Dashboard </h1>
       <p>
         After logging in successfully, a dashboard will appear representing all
         the importing highlights regarding the school. We can filter this
@@ -68,7 +68,7 @@ export default function Dashboard() {
         <li>Attendances / Birthdays</li>
       </ul>
       <img
-        src="/img/dash.jpg"
+        src="/img/dash.avif"
         className="img-fluid"
         alt="school management software"
       />

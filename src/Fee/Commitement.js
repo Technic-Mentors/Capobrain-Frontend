@@ -17,7 +17,7 @@ Following are the options our school management system offers to the users:
 <li>Generate Vouchers </li>
 <li>Print Vouchers  </li>
       </ul>
-      <img src="/img/fee8.jpg" className='img-fluid' alt="" />
+      <img src="/img/fee8.avif" className='img-fluid' alt="" />
     </div>
   )
 }

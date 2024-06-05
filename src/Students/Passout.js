@@ -49,7 +49,7 @@ export default function Passout() {
 
 <h1 className='manual-h1'>Passout Students</h1>
 <p>If you want to enter the data of passout students, you may do so by searching the student by ID and then entering the reason for passout. After you withdraw that student, it will be removed from the student list and it will show you in the list of passout students.</p>
- <img src="/img/Add-passout-Student.png" className='img-fluid' alt="Add-Passout-Student" />  
+ <img src="/img/Add-passout-Student.avif" className='img-fluid' alt="Add-Passout-Student" />  
 </div>
   )
 }
