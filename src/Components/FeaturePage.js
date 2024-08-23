@@ -460,14 +460,12 @@ export default function FeaturePage() {
                 </div>
                 <div className="col-md-3 text-center">
                   <Link to="/contact">
-                    <button className="btn btn1">
+                    <button className="btn btnFill">
                       Get In Touch With Us!
                     </button>
                   </Link>
                 </div>
               </div>
-              <hr className="divider" />
-              <hr className="divider divider1" />
             </div>
           </div>
         </div>

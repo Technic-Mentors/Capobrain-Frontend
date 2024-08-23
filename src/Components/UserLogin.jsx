@@ -35,7 +35,7 @@ export default function UserLogin() {
     return (
         <div>
             <div className="elevateGreeing">
-                <div className="elevateGreeing-overlay">
+                <div className="elevateGreeing-overla">
                     <div className="container py-3">
                         <div className="row d-flex justify-content-center">
                             <div className="col-md-4 py-6">

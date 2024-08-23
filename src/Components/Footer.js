@@ -6,14 +6,12 @@ export default function Footer() {
 
   if (
     location.pathname === "/login" ||
-    location.pathname === "/signup" ||
     location.pathname === "/adminPanel/addblog" ||
     location.pathname === "/adminPanel/allposts" ||
     location.pathname === "/adminPanel/allcategory" ||
     location.pathname === "/adminPanel/addcategory" ||
     location.pathname === "/adminPanel/demoUsers" ||
     location.pathname === "/adminPanel/tickets" ||
-    location.pathname === "/userLogin" ||
     location.pathname === "/adminPanel/board"
   ) {
     return null;
@@ -30,7 +28,6 @@ export default function Footer() {
         {/* <!-- Footer Start --> */}
         <div
           className="footer"
-          // style={{ backgroundImage: `url(${"img/b1.jpg"})` }}
           data-wow-delay=".3s"
         >
           <div>
@@ -44,7 +41,7 @@ export default function Footer() {
                   </h3>
                   <p
                     className="mt-4"
-                    style={{ textAlign: "justify", fontSize: "15px" }}
+                    style={{ textAlign: "justify", fontSize: "16px" }}
                   >
                     Capobrain is the most advanced AI-Powered education
                     management system that redefines educational administration
@@ -63,7 +60,7 @@ export default function Footer() {
                     <Link
                       to="/"
                       className="mb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                       onClick={() => handleClick("/")}
                     >
                       <i className="fas fa-angle-right me-2"></i>
@@ -72,7 +69,7 @@ export default function Footer() {
                     <Link
                       to="/about"
                       className="mb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                       onClick={() => handleClick("/about")}
                     >
                       <i className="fas fa-angle-right  me-2"></i>
@@ -81,7 +78,7 @@ export default function Footer() {
                     <Link
                       to="/features"
                       className="mb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                       onClick={() => handleClick("/features")}
                     >
                       <i className="fas fa-angle-right me-2"></i>
@@ -90,7 +87,7 @@ export default function Footer() {
                     <Link
                       to="/user-manual"
                       className="mb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                       onClick={() => handleClick("/manual")}
                     >
                       <i className="fas fa-angle-right  me-2"></i>
@@ -99,7 +96,7 @@ export default function Footer() {
                     <Link
                       to="/contact"
                       className="mb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                       onClick={() => handleClick("/contact")}
                     >
                       <i className="fas fa-angle-right  me-2"></i>
@@ -108,7 +105,7 @@ export default function Footer() {
                     <Link
                       to="/blog"
                       className="mb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                       onClick={() => handleClick("/blog")}
                     >
                       <i className="fas fa-angle-right  me-2"></i>
@@ -117,7 +114,7 @@ export default function Footer() {
                     <Link
                       to="/login"
                       className="mb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                       onClick={() => handleClick("/signup")}
                     >
                       <i className="fas fa-angle-right  me-2"></i>
@@ -132,29 +129,29 @@ export default function Footer() {
                   <div className="mt-4 d-flex flex-column contact-link">
                     <adiv
                       className="pb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                     >
                       <i className="fas fa-map-marker-alt  me-2"></i> Mumtaz
                       Market, Main GT Road, Gujranwala
                     </adiv>
                     <div
                       className="py-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                     >
                       <i className="fa fa-phone me-2"></i> +923 111 122 144
                     </div>
                     <div
                       className="py-2 mb-2"
-                      style={{ fontSize: "15px" }}
+                      style={{ fontSize: "16px" }}
                     >
                       <i className="fas fa-envelope  me-2"></i>{" "}
                       info@capobrain.com
                     </div>
                   </div>
-                  <h4 className="mb-3" style={{ color: "#00B6C7" }}>
+                  <h3 className="mb-3">
                     Follow Us
-                  </h4>
-                  <div className="d-flex">
+                  </h3>
+                  <div className="d-flex footerSocialLinks">
                     <a
                       href="https://www.facebook.com/CapoBrainOfficial"
                       target="blank"
@@ -211,14 +208,14 @@ export default function Footer() {
         <div className="container">
           <div className="row d-flex justify-content-between">
             <div className="col-md-6">
-              <span className="text-white" style={{ fontSize: "15px" }}>
+              <span className="text-white" style={{ fontSize: "16px" }}>
                 <span>
                   <i className="fas fa-copyright text-white me-2"></i>
                   Capobrain
                 </span>
                 , All right reserved.
               </span>
-              <span className="text-white" style={{ fontSize: "15px" }}>
+              <span className="text-white" style={{ fontSize: "16px" }}>
                 {" "}
                 Developed With Love By
                 <a
@@ -234,7 +231,7 @@ export default function Footer() {
             <div className="col-md-3 d-flex align-items-center">
               <Link
                 to="/privacy"
-                style={{ fontSize: "15px" }}
+                style={{ fontSize: "16px" }}
                 className="text-white me-2"
                 onClick={() => handleClick("/privacy")}
               >
@@ -246,7 +243,7 @@ export default function Footer() {
               ></div>
               <Link
                 to="/t&c"
-                style={{ fontSize: "15px" }}
+                style={{ fontSize: "16px" }}
                 className="text-white"
                 onClick={() => handleClick("/t&c")}
               >

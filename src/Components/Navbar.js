@@ -25,9 +25,6 @@ export default function Navbar() {
     { path: "/about", text: "About" },
     { path: "/features", text: "Features" },
     { path: "/user-manual", text: "User Manual" },
-    // { path: "/blog", text: "Blog" },
-    { path: "/faqs", text: "FAQs" },
-    { path: "/contact", text: "Contact" },
   ];
 
   const isLinkActive = (linkPath) => {
@@ -103,12 +100,14 @@ export default function Navbar() {
                   Help Center
                 </div>
                 <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><Link className="dropdown-item" to="/help">Knowledgebase</Link></li>
-                  <li><Link className="dropdown-item" to="/blog">Blog</Link></li>
-                  <li><Link className="dropdown-item" to="/userLogin">Generate Ticket</Link></li>
+                  <li><Link className={`dropdown-item nav-link text-dark ${isLinkActive("/help")}`} to="/help" onClick={closeNavbarOnItemClick} >Knowledgebase</Link></li>
+                  <li><Link className={`dropdown-item nav-link text-dark ${isLinkActive("/blog")}`} to="/blog" onClick={closeNavbarOnItemClick} >Blog</Link></li>
+                  <li><Link className={`dropdown-item nav-link text-dark ${isLinkActive("/faq")}`} to="/faqs" onClick={closeNavbarOnItemClick} >FAQs</Link></li>
+                  <li><Link className={`dropdown-item nav-link text-dark ${isLinkActive("/userLogin")}`} to="/userLogin" onClick={closeNavbarOnItemClick} >Generate Ticket</Link></li>
+                  <li><Link className={`dropdown-item nav-link text-dark ${isLinkActive("/contact")}`} to="/contact" onClick={closeNavbarOnItemClick} >Contact</Link></li>
                 </ul>
               </li>
-              
+
               <li className="nav-item">
                 <Link to={user && user.name ? "/demo" : "/userSignUp"}>
                   <button
@@ -123,7 +122,6 @@ export default function Navbar() {
             </ul>
           </div>
         </div>
-        {/* <Link to="/profile-login"> <img src={support} alt="support-img" className="supportImg"></img></Link> */}
       </nav >
     </div >
   );

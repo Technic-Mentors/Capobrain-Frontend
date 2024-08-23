@@ -67,7 +67,7 @@ export default function Signup() {
 
   return (
     <div className="elevateGreeing">
-      <div className="elevateGreeing-overlay">
+      <div className="elevateGreeing-overla">
         <div className="d-flex justify-content-end">
         </div>
         <div className="container">

@@ -136,7 +136,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="row d-flex justify-content-between">
+            <div className="row webFeatures d-flex justify-content-between">
               <div className="col-md-3 col-6 d-flex mt-3">
                 <i className="fa-solid fa-school fa-2x me-2"></i>
                 <h5>

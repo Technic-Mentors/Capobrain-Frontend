@@ -74,7 +74,7 @@ export default function Help() {
           </div>
         </div>
       </div>
-
+      
       <div className="container py-5">
         <div className="row help-card justify-content-between">
           <div className="col-md-3">

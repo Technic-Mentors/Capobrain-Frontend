@@ -144,7 +144,7 @@ export default function Contact() {
       <div className="mt-3 mb-3 pt-5">
         <div className="container">
           <div className="text-center">
-            <h1 className="mb-3 ">Contact for any query</h1>
+            <h1 className="mb-3 ">Contact For Any Query</h1>
           </div>
           <div className="row mb-5 mt-4">
             <div
@@ -162,13 +162,13 @@ export default function Contact() {
                   style={{
                     width: "50px",
                     height: "50px",
-                    backgroundColor: "#00B6C7",
+                    backgroundColor: "var(--primary-color)",
                   }}
                 >
                   <i className="fas fa-map-marker-alt text-white"></i>
                 </div>
                 <div className="ms-3">
-                  <h4 style={{ color: "#133D78" }}>Address</h4>
+                  <h4 style={{ color: "initial" }}>Address</h4>
                   <p style={{ color: "black" }}>
                     Mumtaz Market, GT Road, Gujranwala
                   </p>
@@ -190,13 +190,13 @@ export default function Contact() {
                   style={{
                     width: "50px",
                     height: "50px",
-                    backgroundColor: "#00B6C7",
+                    backgroundColor: "var(--primary-color)",
                   }}
                 >
                   <i className="fa fa-phone text-white"></i>
                 </div>
                 <div className="ms-3">
-                  <h4 style={{ color: "#133D78" }}>Call Us</h4>
+                  <h4 style={{ color: "initial" }}>Call Us</h4>
                   <p style={{ color: "black" }}>+923 111 122 144</p>
                 </div>
               </div>
@@ -216,13 +216,13 @@ export default function Contact() {
                   style={{
                     width: "50px",
                     height: "50px",
-                    backgroundColor: "#00B6C7",
+                    backgroundColor: "var(--primary-color)",
                   }}
                 >
                   <i className="fa fa-envelope text-white"></i>
                 </div>
                 <div className="ms-3">
-                  <h4 style={{ color: "#133D78" }}>Email</h4>
+                  <h4 style={{ color: "initial" }}>Email</h4>
                   <p style={{ color: "black" }}> <a href="mailto:info@capobrain.com" style={{ textDecoration: "none", color: "black" }}>info@capobrain.com</a></p>
                 </div>
               </div>

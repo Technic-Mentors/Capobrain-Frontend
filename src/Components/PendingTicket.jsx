@@ -2,50 +2,50 @@ import React, { useEffect, useState } from 'react'
 import Swal from 'sweetalert2'
 
 export default function PendingTicket() {
-  const [allTickets, setAllTickets] = useState([])
-  const user = JSON.parse(sessionStorage.getItem("User"))
-  const tickets = async () => {
-    const res = await fetch("https://capobrain-backend.vercel.app/api/auth/tickets", {
-        method: "GET",
-        headers: {
-            "Content-Type": "application/json"
-        }
-    })
-    const data = await res.json()
-    setAllTickets(data)
-}
-const deleteTicket = async (id) => {
-    const { isConfirmed } = await Swal.fire({
-        title: "Are you sure?",
-        text: "You won't be able to revert this!",
-        icon: "warning",
-        showCancelButton: true,
-        confirmButtonColor: "#3085d6",
-        cancelButtonColor: "#d33",
-        confirmButtonText: "Yes, delete it!",
-    }).then((result) => {
-        if (result.isConfirmed) {
-            Swal.fire({
-                title: "Deleted!",
-                text: "Your Ticket deleted successfully",
-                icon: "success",
-            });
-        }
-        return result;
-    });
-    if (isConfirmed) {
-        await fetch(`https://capobrain-backend.vercel.app/api/auth/delTicket/${id}`, {
-            method: "DELETE"
+    const [allTickets, setAllTickets] = useState([])
+    const user = JSON.parse(sessionStorage.getItem("User"))
+    const tickets = async () => {
+        const res = await fetch("https://capobrain-backend.vercel.app/api/auth/tickets", {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
         })
-        tickets()
+        const data = await res.json()
+        setAllTickets(data)
     }
-}
-useEffect(() => {
-    tickets()
-}, [])
-  return (
-    <div>
-      <table className="table table-bordered" style={{ backgroundColor: "white" }}>
+    const deleteTicket = async (id) => {
+        const { isConfirmed } = await Swal.fire({
+            title: "Are you sure?",
+            text: "You won't be able to revert this!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Yes, delete it!",
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    title: "Deleted!",
+                    text: "Your Ticket deleted successfully",
+                    icon: "success",
+                });
+            }
+            return result;
+        });
+        if (isConfirmed) {
+            await fetch(`https://capobrain-backend.vercel.app/api/auth/delTicket/${id}`, {
+                method: "DELETE"
+            })
+            tickets()
+        }
+    }
+    useEffect(() => {
+        tickets()
+    }, [])
+    return (
+        <div>
+            <table className="table table-bordered" style={{ backgroundColor: "white" }}>
                 <thead>
                     <tr>
                         <th>Title</th>
@@ -58,7 +58,7 @@ useEffect(() => {
                     </tr>
                 </thead>
                 <tbody>
-                    {allTickets && allTickets.filter(ticket => ticket.userId._id===user._id && ticket.status==="Close").reverse().map((ticket) => {
+                    {allTickets && allTickets.filter(ticket => ticket.userId && ticket.userId._id === user._id && ticket.status === "Close").reverse().map((ticket) => {
                         return (
                             <tr>
                                 <td>{ticket.title}</td>
@@ -79,6 +79,6 @@ useEffect(() => {
                     })}
                 </tbody>
             </table>
-    </div>
-  )
+        </div>
+    )
 }

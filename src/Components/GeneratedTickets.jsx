@@ -4,10 +4,12 @@ import MyContext from '../ContextApi/MyContext'
 
 export default function GeneratedTickets() {
     const { allMessages, ticketMessages } = useContext(MyContext)
+
     const [message, setMessage] = useState("")
     const [allTickets, setAllTickets] = useState([])
     const [ediitTicket, setEdiitTicket] = useState([])
     const user = JSON.parse(sessionStorage.getItem("User"))
+
     const convertToPST = (dateString) => {
         const date = new Date(dateString);
         return date.toLocaleString('en-US', { timeZone: 'Asia/Karachi', timeZoneName: 'short' });
@@ -20,6 +22,7 @@ export default function GeneratedTickets() {
             }
         })
         const data = await res.json()
+        console.log(data)
         setAllTickets(data)
     }
     useEffect(() => {
@@ -93,7 +96,7 @@ export default function GeneratedTickets() {
                     </tr>
                 </thead>
                 <tbody>
-                    {allTickets && allTickets.filter(ticket => ticket.userId._id === user._id).reverse().map((ticket) => {
+                    {allTickets && allTickets.filter(ticket => ticket.userId && ticket.userId._id === user._id).reverse().map((ticket) => {
                         return (
                             <tr>
                                 <td>{ticket.ticketId}</td>

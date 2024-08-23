@@ -81,7 +81,7 @@ export default function Layout() {
       <div className="cintainer-fluid mb-3">
         <div className="row mt-3">
           <div className=" col-md-3">
-            <div style={{ backgroundColor: "#0dcaf0" }}>
+            <div style={{ backgroundColor: "var(--primary-color)" }}>
               <div className="pb-3 pt-2 outlet">
                 <Navigation />
               </div>

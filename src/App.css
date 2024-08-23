@@ -13,7 +13,6 @@ html {
 
 p {
   font-family: "Heebo", sans-serif;
-  font-weight: 300;
 }
 
 .head-h1 {
@@ -1289,6 +1288,10 @@ i {
   border: 0;
 }
 
+.footerSocialLinks a {
+  background-color: var(--primary-color);
+}
+
 .short-link a {
   text-decoration: none;
   color: initial;
@@ -1334,11 +1337,10 @@ i {
 .elevateGreeing-overlay {
   background-color: rgba(245, 247, 251, .95);
 }
-
-h4,
-h5 {
-  color: #00b6c7;
+.elevateGreeing-overla {
+  background-color: rgba(231, 231, 231, 0.9);
 }
+
 
 .client-img {
   box-shadow: 0 0 40px rgba(204, 204, 204, .3);
@@ -1363,7 +1365,7 @@ h5 {
 }
 
 .footerBg {
-  background-color: #00B6C7;
+  background-color: var(--primary-color);
 }
 
 .home-container {
@@ -1460,16 +1462,6 @@ h5 {
 
 .profileLink h5 i {
   font-size: 15px;
-}
-
-.divider {
-  background-color: red;
-  border: 0;
-  height: 2px !important;
-}
-
-.divider1 {
-  margin-top: -1%;
 }
 
 @keyframes shapeAnimation {
@@ -1626,7 +1618,7 @@ h5 {
   height: 100%;
   width: 100%;
   background-color: #fe5538;
-  transition: 0.6s ease;
+  transition: 0.5s ease;
   top: 0;
   left: 0;
   transform-origin: bottom right;
@@ -1713,21 +1705,54 @@ a {
   border-radius: 100%;
   color: white;
 }
-.AbouteducationMange{
+
+.AbouteducationMange {
   box-shadow: 0px 0px 20px black;
 }
-.help-card i{
+
+.help-card i {
   font-size: 22px;
 }
-.help-card p{
+
+.help-card p {
   color: initial;
 }
-.help_points{
+
+.help_points {
   line-height: 2rem;
 }
-.help-bg{
+
+.help-bg {
   background-color: #f5f7fb;
 }
-.geneTicketLink{
+
+.geneTicketLink {
   text-decoration: underline !important;
+}
+
+.nav-link {
+  background-color: transparent !important;
+}
+
+.topBarLinks a {
+  background-color: transparent;
+}
+
+.webFeatures h5 {
+  color: initial;
+}
+
+h4,
+h5 {
+  color: initial;
+}
+
+@media (max-width:768px) {
+  .dropdown-item {
+    margin-left: 15px;
+  }
+
+  .nav-item .btnFill {
+    margin-top: 15px;
+  }
 }

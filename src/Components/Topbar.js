@@ -13,7 +13,7 @@ export default function Topbar() {
       {/* <!-- Topbar Start --> */}
       <div
         className="container-fluid pe-0 d-none d-lg-block"
-        style={{ backgroundColor: "#00b6c7" }}
+        style={{ backgroundColor: "var(--primary-color)" }}
       >
         <div className="row gx-0 d-flex align-items-center">
           <div className="col-md-8 d-flex text-lg-start mb-2 mb-lg-0">
@@ -27,7 +27,7 @@ export default function Topbar() {
 
           </div>
           <div className="col-md-4 text-center text-lg-end py-1">
-            <div className="position-relative d-inline-flex align-items-center py-1" style={{ marginRight: "9%" }}>
+            <div className="position-relative topBarLinks d-inline-flex align-items-center py-1" style={{ marginRight: "7%" }}>
 
               <a
                 href="https://www.facebook.com/CapoBrainOfficial"
