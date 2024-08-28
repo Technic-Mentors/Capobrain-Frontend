@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import emailjs from "@emailjs/browser";
-import { Helmet } from 'react-helmet';
 import headerImg from "../img/contact-header.webp"
 
 export default function Contact() {
@@ -75,47 +74,6 @@ export default function Contact() {
   };
   return (
     <div>
-      <Helmet>
-        <title>Contact Us - Capobrain</title>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Contact Us" />
-        <meta property="og:description" content="Connect with Capobrain for a demo of our advanced Education Management System. Use our contact form for inquiries. Elevate your institution with streamlined.." />
-        <meta property="og:url" content="https://capobrain.com/contact" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@BrainCapo" />
-        <meta name="twitter:title" content="Contact Us" />
-        <meta name="twitter:description" content="Connect with Capobrain for a demo of our advanced Education Management System. Use our contact form for inquiries. Elevate your institution with streamlined.." />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://capobrain.com/contact",
-            "name": "Capobrain",
-            "description": "Connect with Capobrain for a demo of our advanced Education Management System. Use our contact form for inquiries. Elevate your institution with streamlined.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://capobrain.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://capobrain.com/contact" />
-        <meta name="description" content="Connect with Capobrain for a demo of our advanced Education Management System. Use our contact form for inquiries. Elevate your institution with streamlined.." />
-      </Helmet>
 
       <div className="home-container">
         <div className="home-container-overlay">

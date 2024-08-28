@@ -7,7 +7,6 @@ import Testimonial from "./Testimonial";
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 import headerImg from "../img/capobrainHeader-img.avif"
 import aboutSection from "../img/aboutSection (1).avif"
 import Benefits from "./Benefits";
@@ -38,49 +37,6 @@ export default function Home() {
 
   return (
     <div>
-      <Helmet>
-        <title>Best Educational Institutes Management System - Capobrain</title>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Home" />
-        <meta property="og:description" content="CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents.." />
-        <meta property="og:image" content="https://capobrain.com/img/about%20capobrain.png" />
-        <meta property="og:url" content="https://capobrain.com/" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@BrainCapo" />
-        <meta name="twitter:title" content="Home" />
-        <meta name="twitter:description" content="CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents.." />
-        <meta name="twitter:image" content="https://capobrain.com/img/about%20capobrain.png" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://capobrain.com/",
-            "name": "capobrain",
-            "description": "CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://capobrain.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://capobrain.com/" />
-        <meta name="description" content="CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents.." />
-      </Helmet>
 
       {/* <!-- Carousel Start --> */}
       <div

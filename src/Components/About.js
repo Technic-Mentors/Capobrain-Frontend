@@ -3,7 +3,6 @@ import Testimonial from "./Testimonial";
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Helmet } from 'react-helmet';
 import webDevelopment from "../img/about-img.webp"
 import headerImg from "../img/header-img.webp"
 import { Link } from "react-router-dom";
@@ -14,49 +13,6 @@ export default function About() {
   }, []);
   return (
     <div>
-      <Helmet>
-        <title>About Us - Best Educational Institutes Management Software</title>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="About Us" />
-        <meta property="og:description" content="The system's financial management tools enable educational institutions to monitor expenses, income, and budgets, facilitating well-informed financial decis.." />
-        <meta property="og:image" content="https://capobrain.com/img/education.png" />
-        <meta property="og:url" content="https://capobrain.com/about" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@BrainCapo" />
-        <meta name="twitter:title" content="About Us" />
-        <meta name="twitter:description" content="The system's financial management tools enable educational institutions to monitor expenses, income, and budgets, facilitating well-informed financial decis.." />
-        <meta name="twitter:image" content="https://capobrain.com/img/education.png" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://capobrain.com/about",
-            "name": "Capobrain",
-            "description": "The system's financial management tools enable educational institutions to monitor expenses, income, and budgets, facilitating well-informed financial decis.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://capobrain.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://capobrain.com/about" />
-        <meta name="description" content="The system's financial management tools enable educational institutions to monitor expenses, income, and budgets, facilitating well-informed financial decis.." />
-      </Helmet>
 
       <div className="home-container">
         <div className="home-container-overlay">

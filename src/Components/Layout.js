@@ -1,55 +1,11 @@
 import React from "react";
 import Navigation from "./Navigation";
 import { Outlet } from "react-router-dom";
-import { Helmet } from 'react-helmet';
 import headerImg from "../img/header-img.webp"
 
 export default function Layout() {
   return (
     <div style={{ overflowX: "hidden" }}>
-      <Helmet>
-        <title>User Manual - Capobrain</title>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="User Manual" />
-        <meta property="og:description" content="This user manual is your comprehensive guide to navigating and maximizing our platform. From course creation to grade tracking, Capobrain empowers educators.." />
-        <meta property="og:image" content="https://capobrain.com/img/dash.jpg" />
-        <meta property="og:url" content="https://capobrain.com/user-manual" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@BrainCapo" />
-        <meta name="twitter:title" content="User Manual" />
-        <meta name="twitter:description" content="This user manual is your comprehensive guide to navigating and maximizing our platform. From course creation to grade tracking, Capobrain empowers educators.." />
-        <meta name="twitter:image" content="https://capobrain.com/img/dash.jpg" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://capobrain.com/user-manual",
-            "name": "Capobrain",
-            "description": "This user manual is your comprehensive guide to navigating and maximizing our platform. From course creation to grade tracking, Capobrain empowers educators.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://capobrain.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://capobrain.com/user-manual" />
-        <meta name="description" content="This user manual is your comprehensive guide to navigating and maximizing our platform. From course creation to grade tracking, Capobrain empowers educators.." />
-      </Helmet>
 
       <div className="home-container">
         <div className="home-container-overlay">

@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import { Helmet } from 'react-helmet';
 
 export default function Demo() {
   const [credentials, setCredentials] = useState({
@@ -116,69 +115,6 @@ export default function Demo() {
   };
   return (
     <div>
-      <Helmet>
-        <title>Request A Demo - Capobrain</title>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Demo Request" />
-        <meta property="og:description" content="Let’s Have A Live Demo
-See for yourself how our best school management system works:
-
-Demo Link : https://demo.capobrain.com/
-Demo Credentials
-School User.." />
-        <meta property="og:image" content="https://demo.capobrain.com/" />
-        <meta property="og:url" content="https://capobrain.com/demo" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@BrainCapo" />
-        <meta name="twitter:title" content="Demo Request" />
-        <meta name="twitter:description" content="Let’s Have A Live Demo
-See for yourself how our best school management system works:
-
-Demo Link : https://demo.capobrain.com/
-Demo Credentials
-School User.." />
-        <meta name="twitter:image" content="https://demo.capobrain.com/" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://capobrain.com/demo",
-            "name": "Capobrain",
-            "description": "Let’s Have A Live Demo
-See for yourself how our best school management system works:
-
-Demo Link : https://demo.capobrain.com/
-Demo Credentials
-School User.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://capobrain.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://capobrain.com/demo" />
-        <meta name="description" content="Let’s Have A Live Demo
-See for yourself how our best school management system works:
-
-Demo Link : https://demo.capobrain.com/
-Demo Credentials
-School User.." />
-      </Helmet>
 
       <div className="home-container">
         <div

@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import { Helmet } from 'react-helmet';
 import headerImg from "../img/header-img.webp"
 
 export default function FeaturePage() {
@@ -12,49 +11,6 @@ export default function FeaturePage() {
 
   return (
     <div>
-      <Helmet>
-        <title>Features Highlights Of Best Educational Institutes Management Software</title>
-        {/* open grapgh tag */}
-        <meta property="og:title" content="Capobrain Features" />
-        <meta property="og:description" content="Discover the innovative features that set Capobrain apart as a leading Education Management System (EMS). From streamlined enrollment and automated attendance.." />
-        <meta property="og:image" content="https://capobrain.com/img/about%20us.png" />
-        <meta property="og:url" content="https://capobrain.com/features" />
-        <meta property="og:type" content="website" />
-
-        {/* twitter card  */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@BrainCapo" />
-        <meta name="twitter:title" content="Capobrain Features" />
-        <meta name="twitter:description" content="Discover the innovative features that set Capobrain apart as a leading Education Management System (EMS). From streamlined enrollment and automated attendance.." />
-        <meta name="twitter:image" content="https://capobrain.com/img/about%20us.png" />
-
-        {/* Schema.org structured data */}
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "url": "https://capobrain.com/features",
-            "name": "Capobrain",
-            "description": "Discover the innovative features that set Capobrain apart as a leading Education Management System (EMS). From streamlined enrollment and automated attendance.." ,
-            "potentialAction": {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://capobrain.com/search?q={search_term_string}",
-                "actionPlatform": [
-                  "https://schema.org/DesktopWebPlatform",
-                  "https://schema.org/IOSPlatform",
-                  "https://schema.org/AndroidPlatform"
-                ]
-              },
-              "query-input": "required name=search_term_string"
-            }
-          }
-        `}</script>
-
-        <link rel="canonical" href="https://capobrain.com/features" />
-        <meta name="description" content="Discover the innovative features that set Capobrain apart as a leading Education Management System (EMS). From streamlined enrollment and automated attendance.." />
-      </Helmet>
 
       <div className="home-container">
         <div className="home-container-overlay">
