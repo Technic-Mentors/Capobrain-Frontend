@@ -11,63 +11,81 @@ export default function SeoTags() {
     const [description, setDescription] = useState("")
 
     useEffect(() => {
-        if (pathname === "/") {
-            setName("Home")
-            setTitle("Best Educational Institutes Management System - Capobrain")
-            setUrl("https://capobrain.com/")
-            setImg("https://capobrain.com/img/about%20capobrain.png")
-            setDescription("CapoBrain is a versatile Education Management System that simplifies administrative tasks and facilitates communication between educators, staff, and parents..")
-        } else if (pathname === "/about") {
-            setName("About")
-            setTitle("About Us - Best Educational Institutes Management Software")
-            setUrl("https://capobrain.com/about")
-            setImg("https://capobrain.com/img/education.png")
-            setDescription("The system's financial management tools enable educational institutions to monitor expenses, income, and budgets, facilitating well-informed financial decis..")
-        } else if (pathname === "/features") {
-            setName("Features")
-            setTitle("Features Of Best Educational Institutes Management Software")
-            setUrl("https://capobiz.com/features")
-            setImg("https://capobrain.com/img/about%20us.png")
-            setDescription("Discover the innovative features that set Capobrain apart as a leading Education Management System (EMS). From streamlined enrollment and automated attendance..")
-        } else if (pathname === "/user-manual/dashboard") {
-            setName("User Manual")
-            setTitle("User Manual For Capobrain institute Management Software")
-            setUrl("https://capobrain.com/user-manual/dashboard")
-            setImg("https://capobrain.com/img/dash.jpg")
-            setDescription("Explore the User Manual for Capobrain School Management Software. Access detailed guides on features, administration, and effective use of the system.")
-        } else if (pathname === "/help") {
-            setName("Help")
-            setTitle("Capobrain Help Info")
-            setUrl("https://capobrain.com/help")
-            setImg("https://capobrain.com/static/media/help-img.e98695db018ac2bee340.avif")
-            setDescription("Visit Capobrain Help Center for guides and support on school management software, including troubleshooting, administration, and live reporting.")
-        } else if (pathname === "/blog") {
-            setName("Blog")
-            setTitle("Blogs - Capobrain")
-            setUrl("https://capobrain.com/blog")
-            setDescription("Discover blogs on school management, live reporting, and educational tech with Capobrain School Management Software. Stay updated with the latest trends.")
-        } else if (pathname === "/faqs") {
-            setName("FAQ'S")
-            setTitle("FAQ's - CapoBrain")
-            setUrl("https://capobrain.com/faqs")
-            setDescription("Get answers about Capobrain School Management System. Learn how our software streamlines school administration and enhances real-time reporting.")
-        } else if (pathname === "/contact") {
-            setName("Contact")
-            setTitle("Get In Touch With Us - CapoBrain")
-            setUrl("https://capobrain.com/contact")
-            setDescription("Connect with Capobrain for a demo of our advanced Education Management System. Use our contact form for inquiries. Elevate your institution with streamlined..")
+        switch (pathname) {
+            case "/":
+                setName("Home")
+                setTitle("Best School/College Management Software - Capobrain")
+                setUrl("https://capobrain.com/")
+                setImg("https://capobrain.com/img/about%20capobrain.png")
+                setDescription("CapoBrain simplifies school and college management, streamlining administration and enhancing communication between educators, staff, and parents.")
+                break;
+            case "/about":
+                setName("About")
+                setTitle("Know About The Leading School Management System - Capobrain")
+                setUrl("https://capobrain.com/about")
+                setImg("https://capobrain.com/img/education.png")
+                setDescription("Learn about Capobrain, a top school management system designed to streamline school operations and enhance student success.")
+                break;
+            case "/features":
+                setName("Features")
+                setTitle("Comprehensive School Software Features - Capobrain")
+                setUrl("https://capobrain.com/features")
+                setImg("https://capobrain.com/img/about%20us.png")
+                setDescription("Explore comprehensive features of Capobrain's school software, designed to streamline administration, enhance learning, and improve overall school efficiency.")
+                break;
+            case "/user-manual/dashboard":
+                setName("User Manual")
+                setTitle("Our Detailed Software User Manual - Capobrain")
+                setUrl("https://capobrain.com/user-manual/dashboard")
+                setImg("https://capobrain.com/img/dash.jpg")
+                setDescription("Explore Capobrain's user manual for easy guidance on using our School Management Software. Get tips, instructions, and support for smooth operations.")
+                break;
+            case "/help":
+                setName("Help")
+                setTitle("Capobrain Help Center")
+                setUrl("https://capobrain.com/help")
+                setImg("https://capobrain.com/static/media/help-img.e98695db018ac2bee340.avif")
+                setDescription("Visit Capobrain Help Center for guides and support on school management software, including troubleshooting, administration, and live reporting.")
+                break;
+            case "/blog":
+                setName("Blog")
+                setTitle("Blogs - Capobrain")
+                setUrl("https://capobrain.com/blog")
+                setDescription("Discover blogs on school management, live reporting, and educational tech with Capobrain School Management Software. Stay updated with the latest trends.")
+                break;
+            case "/faqs":
+                setName("FAQ'S")
+                setTitle("FAQ's - CapoBrain")
+                setUrl("https://capobrain.com/faqs")
+                setDescription("Get answers about Capobrain School Management System. Learn how our software streamlines school administration and enhances real-time reporting.")
+                break;
+            case "/contact":
+                setName("Contact")
+                setTitle("Get In Touch With Us - CapoBrain")
+                setUrl("https://capobrain.com/contact")
+                setDescription("Get in touch with Capobrain team for a demo of our advanced Education Management System. Use our contact form for inquiries.")
+                break;
+            default:
+                setName("CapoBrain")
+                setTitle("Best School/College Management Software - Capobrain")
+                setUrl("https://capobrain.com/")
+                setImg("https://capobrain.com/img/about%20capobrain.png")
+                setDescription("CapoBrain simplifies school and college management, streamlining administration and enhancing communication between educators, staff, and parents.")
+                break;
         }
     }, [pathname])
     return (
         <>
             <Helmet>
                 <title>{title}</title>
+                <meta name='title' content={title} />
+                <meta name="description" content={description} />
                 {/* open grapgh tag */}
                 <meta property="og:title" content={name} />
                 <meta property="og:description" content={description} />
                 <meta property="og:image" content={img} />
                 <meta property="og:url" content={url} />
-                <meta property="og:type" content="website" />
+                <meta property="og:type" content='website' />
 
                 {/* twitter card  */}
                 <meta name="twitter:card" content="summary" />
@@ -100,7 +118,6 @@ export default function SeoTags() {
           }
         `}</script>
                 <link rel="canonical" href={url} />
-                <meta name="description" content={description} />
             </Helmet>
         </>
     )

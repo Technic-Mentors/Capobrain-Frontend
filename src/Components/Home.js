@@ -50,12 +50,12 @@ export default function Home() {
             <div className="shape4"></div>
           </div>
           <div className="container">
-            <div className="row d-flex py-5 align-items-center justify-content-between">
-              <div className="col-md-6 mt-5 mb-5 mainHeaderCol">
+            <div className="row d-flex py-4 align-items-center justify-content-between">
+              <div className="col-md-6 mainHeaderCol">
                 <h1
                   className="head-h1"
                 >
-                  Simplify Your  <br /> <span> School & College</span> <br /> Management with Ease
+                  Explore The Best <br /> <span> School & College</span> Management Software
                 </h1>
                 <p style={{ color: "initial" }}>
                   Familiarize yourself with the world of education and gain
@@ -88,7 +88,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 mb-2">
+              <div className="col-md-6">
                 <img
                   src={headerImg}
                   className="img-fluid"
@@ -120,9 +120,9 @@ export default function Home() {
               height="400"
             >
               <div className="about-item pt-3 pb-3">
-                <h1 className="mb-2">
-                  Welcome To Educational Institutes Management Software
-                </h1>
+                <h2 className="mb-2">
+                  Welcome To Capobrain School Management Software
+                </h2>
                 <p style={{ textAlign: "justify" }}> Introducing Capobrain, the ultimate school software designed to streamline operations and enhance efficiency for educational institutions. Whether you are managing a bustling school or a sprawling university, our school management system integrates all aspects of campus life. From student admissions and attendance tracking to staff management and curriculum planning, Capobrain simplifies complex administrative tasks, making it the ideal solution for modern educational environments.</p>
                 <p style={{ textAlign: "justify" }}>Capobrain stands out as a comprehensive college management system, offering unparalleled features tailored for higher education. Our campus management system ensures seamless coordination between departments, providing tools for financial management, resource allocation, and academic scheduling. By leveraging Capobrain, educational institutions can foster a more organized, productive, and connected community, revolutionizing the way schools and colleges operate.</p>
                 <div className="text-center">

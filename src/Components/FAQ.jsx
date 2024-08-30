@@ -40,7 +40,7 @@ export default function FAQ() {
                     data-aos-easing="ease-in-out"
                 >
                     <div className="section-title">
-                        <h1 className='text-center'>F.A.Q</h1>
+                        <h2 className='text-center'>F.A.Q</h2>
                         <h6 className='text-center' style={{ color: "initial" }}> Frequently Asked <span>Questions</span> </h6>
                         <h6 className='text-center' style={{ color: "initial" }}>
                             Our curated list of the most frequently asked questions about us.

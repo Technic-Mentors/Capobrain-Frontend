@@ -7,7 +7,7 @@ export default function Demorequest() {
   const [email, setEmail] = useState([]);
   const [user, setUser] = useState([]);
   const [editUser, setEditUser] = useState([])
-  const [editId, setEditId] = useState([])
+  // const [editId, setEditId] = useState([])
   const fetachAllUsers = async () => {
     await fetch(
       "https://capobrain-backend.vercel.app/api/auth/getallusers",
@@ -38,21 +38,21 @@ export default function Demorequest() {
     })
       .then((res) => res.json())
       .then((data) => {
-        setEditId(data._id)
+        // setEditId(data._id)
         setEditUser(data);
       });
   };
 
-  const updateuser = () => {
-    fetch(`https://capobrain-backend.vercel.app/api/auth/getusers/${editId}`, {
-      method: "GET",
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        setEditId(data._id)
-        setEditUser(data);
-      });
-  };
+  // const updateuser = () => {
+  //   fetch(`https://capobrain-backend.vercel.app/api/auth/getusers/${editId}`, {
+  //     method: "GET",
+  //   })
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setEditId(data._id)
+  //       setEditUser(data);
+  //     });
+  // };
 
   const deluser = async (id) => {
     const { isConfirmed } = await Swal.fire({

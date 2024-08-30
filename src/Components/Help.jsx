@@ -35,18 +35,18 @@ export default function Help() {
         <div className="row help-card justify-content-between">
           <div className="col-md-3">
             <i className='fas fa-ticket-alt'></i>
-            <h5>Streamlined Ticketing</h5>
+            <h3 className='seo-heading-h3'>Streamlined Ticketing</h3>
             <p> Easily log and track issues for swift resolution and seamless communication.</p>
           </div>
           <div className="col-md-3">
             <i className='fas fa-headset'></i>
-            <h5>Tailored Support</h5>
+            <h3 className='seo-heading-h3'>Tailored Support</h3>
             <p>Get tailored assistance for your school's unique challenges.</p>
 
           </div>
           <div className="col-md-3">
             <i className='fas fa-chart-line'></i>
-            <h5>Continuous Improvements</h5>
+            <h3 className='seo-heading-h3'>Continuous Improvements</h3>
             <p> Share your experiences and suggestions for continuous software improvement.</p>
 
           </div>
@@ -57,14 +57,14 @@ export default function Help() {
         <div className="container py-4">
           <div className="row help-card align-items-center justify-content-between">
             <div className="col-md-6 help_points">
-            <h1>Uh Oh! Having An Issue?</h1>
+            <h2>Uh Oh! Having An Issue?</h2>
               <p>  Let us know if you run into any glitches while using our software. Your feedback helps us fix issues and make things smoother for everyone!</p>
-              <h5> How to report an issue:</h5>
+              <h3 className='seo-heading-h3'> How to report an issue:</h3>
               <li>Briefly explain what went wrong.</li>
               <li>If you can, show us how to make the bug happen again (step-by-step).</li>
               <li>Copy and paste any error messages that pop up.</li>
 
-              <h5 className='mt-3'> How to Report:</h5>
+              <h3 className='seo-heading-h3 mt-3'> How to Report:</h3>
               Still need guidance? <Link to="/userLogin" className='geneTicketLink'> Generate a ticket</Link> of your problem and our support team will take you through the process to resolve your issue.
             </div>
             <div className="col-md-5">
@@ -82,7 +82,7 @@ export default function Help() {
           data-aos-easing="ease-in-out"
         >
           <div className="section-title">
-            <h1 className="subtitle text-center">F.A.Q</h1>
+            <h2 className="subtitle text-center">F.A.Q</h2>
             <h6 className='text-center' style={{ color: "initial" }}> Frequently Asked <span>Questions</span> </h6>
             <h6 className='text-center' style={{ color: "initial" }}>
               Our curated list of the most frequently asked questions about us.

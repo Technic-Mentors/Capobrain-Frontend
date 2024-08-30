@@ -10,7 +10,7 @@ export default function Allposts() {
   const [postId, setPostId] = useState([]);
   const [searchTitle, setSearchTitle] = useState("");
   const [searchCategory, setSearchCategory] = useState("");
-  
+
   const Getallposts = async () => {
     await fetch("https://capobrain-backend.vercel.app/api/auth/getallposts", {
       method: "GET",
@@ -82,6 +82,9 @@ export default function Allposts() {
     const { title, category, content, slug } = editPost
     const res = await fetch(`https://capobrain-backend.vercel.app/api/auth/editposts/${postId}`, {
       method: "PUT",
+      headers:{
+        "Content-Type":"application/json"
+      },
       body: JSON.stringify({
         title,
         category,
@@ -121,7 +124,7 @@ export default function Allposts() {
     return new Date(dateString).toLocaleDateString(undefined, options);
   };
 
-  
+
   return (
     <div>
       <h2 className="pt-5 pb-3 text-center">Blogs List</h2>
@@ -408,7 +411,7 @@ export default function Allposts() {
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 }

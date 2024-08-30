@@ -31,7 +31,7 @@ export default function Layout() {
         </div>
       </div>
       <div className="container my-4">
-        <h1 className="text-center">Capobrain <span> User</span> Guide</h1>
+        <h2 className="text-center">Capobrain <span> User</span> Guide</h2>
         <p style={{ textAlign: "justify" }}>Explore the full potential of Capobrain, your ultimate online education management system. This user manual is your comprehensive guide to navigating and maximizing our platform. From course creation to grade tracking, Capobrain empowers educators, students, and administrators. Benefit from real-time collaboration, attendance tracking, and detailed analytics, all explained in this guide. Secure access controls and a centralized hub for resources make Capobrain the ideal solution for <a href="https://mentorsacademia.com/" style={{ textDecoration: "none" }} target="blank"> modern education</a>. Revolutionize your experience with this manual, ensuring you harness the full power of Capobrain.</p>
       </div>
       <div className="cintainer-fluid mb-3">

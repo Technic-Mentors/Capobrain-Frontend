@@ -78,7 +78,7 @@ export default function Testimonial() {
                   manage student information, schedule classes, and track
                   attendance without any hassle.
                 </p>
-                <h5 className="mb-1 text-white">Nimra Ihsan </h5>
+                <h3 className="mb-1 text-white seo-heading-h3">Nimra Ihsan </h3>
                 <span className="fst-italic text-white">Manager HR <span className="occupation">(The Educators)</span></span>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function Testimonial() {
                   administrative tasks. It has made our work easier, more
                   efficient, and allowed us to focus on student success.
                 </p>
-                <h5 className="mb-1 text-white">Asim Rasool</h5>
+                <h3 className="mb-1 text-white seo-heading-h3">Asim Rasool</h3>
                 <span className="fst-italic text-white">Director<span className="occupation">  (Apex College)</span></span>
               </div>
             </div>
@@ -112,7 +112,7 @@ export default function Testimonial() {
                   tasks and communicate with parents, creating a more
                   collaborative learnign environment.
                 </p>
-                <h5 className="mb-1 text-white">Sikandar Nawaz Cheema</h5>
+                <h3 className="mb-1 text-white seo-heading-h3">Sikandar Nawaz Cheema</h3>
                 <span className="fst-italic text-white">
                 Principal <span className="occupation">(Falcon Central School)</span>
                 </span>
@@ -131,7 +131,7 @@ export default function Testimonial() {
                   stronger relationships, leading to parents engagement and
                   involvement in child's education.
                 </p>
-                <h5 className="mb-1 text-white">Faizan Minhas</h5>
+                <h3 className="mb-1 text-white seo-heading-h3">Faizan Minhas</h3>
                 <span className="fst-italic text-white">
                 General Manager <span className="occupation"> (Dar e Arqam Schools)</span>
                 </span>

@@ -48,7 +48,10 @@ h1 {
   font-size: 30px !important;
   font-weight: 600;
 }
-
+.seo-heading-h3{
+  color: initial;
+  font-size: 20px;
+}
 .p-color {
   color: rgba(120, 84, 246, 1);
 }
@@ -57,7 +60,7 @@ h1 {
   background-color: rgb(224, 216, 253);
 }
 
-h1 {
+h2 {
   font-size: 30px;
 }
 

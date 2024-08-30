@@ -21,9 +21,9 @@ export default function Logo() {
               <div className="row d-flex align-items-center justify-content-center justify-content-between">
 
                 <div className="col-md-12 col-12 logo-text">
-                  <h1 className="mb-4 text-center">
+                  <h2 className="mb-4 text-center">
                     Our Trusted Clients
-                  </h1>
+                  </h2>
                   <p
                     data-aos="fade-up"
                     data-aos-duration="1000"
