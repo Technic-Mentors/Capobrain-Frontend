@@ -47,7 +47,7 @@ export default function Onlineadmissions() {
         <meta name="description" content="This module displays a list of all students who applied online in the online admission submodule. The online admission submodule can receive all admission received over the website. " />
       </Helmet>
 
-      <h1 className='manual-h1'>Online Admissions</h1>
+      <h2 className='manual-h1'>Online Admissions</h2>
       <p>
         This module displays a list of all students who applied online in the
         online admission submodule. The online admission submodule can receive

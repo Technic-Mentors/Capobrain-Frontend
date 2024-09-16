@@ -293,7 +293,7 @@ title: (
 links: [
 {
   to: "recieve-fee",
-  label: "Recieve Fee"
+  label: "Receive Fee"
 },
 {
   to: "refund-payment",
@@ -741,7 +741,7 @@ links: [
         },
         {
           to: "home",
-          label: "Home",
+          label: "Front Website Home",
         },
         {
           to: "about-us",
@@ -837,11 +837,11 @@ links: [
       links: [
         {
           to: "student-attendnce",
-          label: "Student Attendance",
+          label: "Student Attendance Report",
         },
         {
           to: "staff-attendnce",
-          label: "Staff Attendance",
+          label: "Staff Attendance Report",
         },
         {
           to: "students-report",
@@ -956,7 +956,7 @@ links: [
         >
           <div class="container-fluid">
             <a class="navbar-brand" href="#/">
-              User Manual
+              Software User Guide
             </a>
             <button
               className={`navbar-toggler ${isNavbarOpen ? "collapsed" : ""}`}

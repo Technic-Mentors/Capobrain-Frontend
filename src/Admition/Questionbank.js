@@ -47,7 +47,7 @@ export default function Questionbank() {
         <meta name="description" content="We all know that when applying to schools, they will ask some questions for analysis, therefore this module is for this. In this module, you will utilize the question bank to add questions." />
       </Helmet>
 
-      <h1 className='manual-h1'>Question Bank</h1>
+      <h2 className='manual-h1'>Question Bank</h2>
       <p>We all know that when applying to schools, they will ask some questions for analysis, therefore this module is for this. In this module, you will utilize the question bank to add questions. You can add several questions, and these questions will be displayed at the time of admission. You will select the branch name, the class and section, the subject, and finally the question. You can decide how many questions you wish to include.</p>
       <img src="/img/Add-Question-Detail.avif" className='img-fluid' alt="Add-Question-Detail" />
     </div>

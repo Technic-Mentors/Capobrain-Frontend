@@ -26,7 +26,7 @@ export default function Topbar() {
             </p>
 
           </div>
-          <div className="col-md-4 text-center text-lg-end py-1">
+          <div className="col-md-4 text-center d-flex justify-content-end text-lg-end py-1">
             <div className="position-relative topBarLinks d-inline-flex align-items-center py-1" style={{ marginRight: "7%" }}>
 
               <a
@@ -35,6 +35,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
               >
                 <i className="fab fa-facebook-f text-white"></i>
+                <span className="d-none">Face</span>
               </a>
               <a
                 href="https://twitter.com/BrainCapo"
@@ -42,6 +43,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
               >
                 <i className="fab fa-twitter text-white"></i>
+                <span className="d-none">Twi</span>
               </a>
               <a
                 href="https://www.youtube.com/@CapoBrain"
@@ -49,6 +51,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
               >
                 <i className="fab fa-youtube text-white"></i>
+                <span className="d-none">You</span>
               </a>
               <a
                 href="https://www.linkedin.com/in/CapoBrain/"
@@ -56,6 +59,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
               >
                 <i className="fab fa-linkedin-in text-white"></i>
+                <span className="d-none">Linked</span>
               </a>
               <a
                 href="https://www.instagram.com/CapoBrain"
@@ -63,6 +67,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
               >
                 <i className="fa-brands fa-instagram text-white"></i>
+                <span className="d-none">Insta</span>
               </a>
               <a
                 href="https://wa.me/923111122144"
@@ -70,6 +75,7 @@ export default function Topbar() {
                 className="nav-fill btn btn1 btn-sm-square rounded-circle me-0"
               >
                 <i className="fa-brands fa-whatsapp text-white"></i>
+                <span className="d-none">What</span>
               </a>
             </div>
           </div>

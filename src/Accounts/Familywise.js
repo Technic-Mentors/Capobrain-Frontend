@@ -47,7 +47,7 @@ export default function Familywise() {
         <meta name="description" content="Because every student adds family details in their admission form and parent ID will be assigned at the end of student acceptance, the family wise account will be formed and it will reveal their kid account detail such as ID," />
       </Helmet>
 
-      <h1 className='manual-h1'>Family Wise Account</h1>
+      <h2 className='manual-h1'>Family Wise Account</h2>
       <p>Because every student adds family details in their admission form and parent ID will be assigned at the end of student acceptance, the family wise account will be formed and it will reveal their kid account detail such as ID, name, class, section, and overall balance. This information is also available to parents via their portal.</p>
       <img src="/img/Family-Account-Detail.avif" className='img-fluid' alt="Family-Account-Detail" />
       

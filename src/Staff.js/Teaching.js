@@ -47,7 +47,7 @@ export default function Teaching() {
         <meta name="description" content="In teaching staff, there is a form for teachers to fill out, and there is an option to add teacher personal details, academic details, work experience and talents, and so on." />
       </Helmet>
 
-      <h1 className='manual-h1'>Teaching Staff</h1>
+      <h2 className='manual-h1'>Teaching Staff</h2>
       <p>
         In teaching staff, there is a form for teachers to fill out, and there
         is an option to add teacher personal details, academic details, work

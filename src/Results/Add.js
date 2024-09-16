@@ -47,7 +47,7 @@ export default function Add() {
         <meta name="description" content="You will add the result of any class in this module. You will first select the branch, exam type, class, and section, and then click the load button, which will load all of the subjects in that class." />
       </Helmet>
 
-      <h1 className='manual-h1'>Add Result</h1>
+      <h2 className='manual-h1'>Add Result</h2>
       <p>You will add the result of any class in this module. You will first select the branch, exam type, class, and section, and then click the load button, which will load all of the subjects in that class. You will then enter the marks for each subject one by one, and then save the result, which will display the record in the relevant result card in the result list.</p>
       <img src="/img/Add-Result.avif" className='img-fluid' alt="Add-Result" />
     </div>

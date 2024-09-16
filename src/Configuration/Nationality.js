@@ -55,7 +55,7 @@ export default function Nationality() {
 " />
       </Helmet>
 
-      <h1 className='manual-h1'>Nationality</h1>
+      <h2 className='manual-h1'>Nationality</h2>
       <p>In this module you can simply add the generic nationality country, It will show you the list of all nationality so you can view, update and delete anyone from this.</p>
       <img src="/img/Add-Nationality.avif" className='img-fluid' alt="Add-Nationality" />
     </div>

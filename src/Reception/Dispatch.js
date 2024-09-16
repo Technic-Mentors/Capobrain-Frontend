@@ -47,7 +47,7 @@ export default function Dispatch() {
         <meta name="description" content="In the postal dispatch module, you may enter all postal dispatch details such as the title, from title, reference number, address, and date. In postal dispatch all the fields are mandatory." />
       </Helmet>
 
-      <h1 className='manual-h1'>Postal Dispatch</h1>
+      <h2 className='manual-h1'>Postal Dispatch</h2>
       <p>In the postal dispatch module, you may enter all postal dispatch details such as the title, from title, reference number, address, and date. In postal dispatch all the fields are mandatory. This is the option where you may add all postal dispatches and examine the list of postal dispatches. You can also update the details of any postal dispatch.</p>
       <img src="/img/Add-Postal-Dispatch.avif" className='img-fluid' alt="Add-Postal-Dispatch" />
     </div>

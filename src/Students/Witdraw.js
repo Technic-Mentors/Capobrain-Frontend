@@ -47,7 +47,7 @@ export default function Witdraw() {
         <meta name="description" content="If you want to withdraw any student from school, you may do so by searching the student by ID and then entering the reason for withdrawal. After you withdraw that student," />
       </Helmet>
 
-<h1 className='manual-h1'>Withdraw Students</h1>
+<h2 className='manual-h1'>Withdraw Students</h2>
 <p>If you want to withdraw any student from school, you may do so by searching the student by ID and then entering the reason for withdrawal. After you withdraw that student, it will be removed from the student list and it will show you a list of all withdraw student with reasons.</p>
  <img src="/img/Add-Withdraw-Student.avif" className='img-fluid' alt="Add-Withdraw-Student" />  
 </div>

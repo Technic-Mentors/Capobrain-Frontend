@@ -6,7 +6,7 @@ export default function Complains() {
     <div className="container">
 <Helmet>
         {/* open grapgh tag */}
-        <meta property="og:title" content="Online Complains list" />
+        <meta property="og:title" content="Online Complaints list" />
         <meta property="og:description" content="The online complaints list submodule can receive all complaints received over the website. There is a separate website module through which every school can develop their own website" />
         <meta property="og:image" content="https://capobrain.com/img/Complains-Detail.png" />
         <meta property="og:url" content="https://capobrain.com/user-manual/online-complains-list" />
@@ -47,7 +47,7 @@ export default function Complains() {
         <meta name="description" content="The online complaints list submodule can receive all complaints received over the website. There is a separate website module through which every school can develop their own website" />
       </Helmet>
 
-      <h1 className='manual-h1'>Online Complains List</h1>
+      <h2 className='manual-h1'>Online Complains List</h2>
       <p>The online complaints list submodule can receive all complaints received over the website. There is a separate website module through which every school can develop their own website by adding content such as about, gallery, events, and so on. When you see the website, there will be an option for complaints, and anyone may add a complaint, which will be displayed on the online complain list submodule, where you can simply view the name, email, contact, or description.</p>
       <img src="/img/Complains-Detail.avif" className='img-fluid' alt="Complains-Detail" />
     </div>

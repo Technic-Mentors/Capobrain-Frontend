@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3d18ab5d.css",
+    "main.js": "/static/js/main.161290f8.js",
+    "static/js/787.86bae028.chunk.js": "/static/js/787.86bae028.chunk.js",
+    "static/media/restaurants-intro-bg-img.avif": "/static/media/restaurants-intro-bg-img.007756b5f144ea2b9966.avif",
+    "static/media/aboutSection (1).avif": "/static/media/aboutSection (1).39372ac2fb4ca81950cd.avif",
+    "static/media/user-img.png": "/static/media/user-img.8d385477bf4ab6abc5c6.png",
+    "static/media/allPageHeader.avif": "/static/media/allPageHeader.824e99d7cf6b17b5ed17.avif",
+    "static/media/about-img.webp": "/static/media/about-img.5f43cdf733de35ec66b4.webp",
+    "static/media/bg01.avif": "/static/media/bg01.7e1c6d2c1ab392a6bae7.avif",
+    "static/media/header-img.webp": "/static/media/header-img.d248ed35939d6507650d.webp",
+    "static/media/capobrainHeader.avif": "/static/media/capobrainHeader.2bbce895f2dfedade2aa.avif",
+    "static/media/contact-header.webp": "/static/media/contact-header.a426d9f721ca37bb69e7.webp",
+    "static/media/greening-education.webp": "/static/media/greening-education.40ec47395fdedcf6db16.webp",
+    "static/media/elevate-education.webp": "/static/media/elevate-education.b8691635adf3dfa61de1.webp",
+    "static/media/capobrainHeader-img.avif": "/static/media/capobrainHeader-img.5b507c160e6d4b01217d.avif",
+    "static/media/b1.avif": "/static/media/b1.5b7d33e3f1579f103d75.avif",
+    "static/media/help-img.avif": "/static/media/help-img.e98695db018ac2bee340.avif",
+    "static/media/admin-control-panel.avif": "/static/media/admin-control-panel.8f94cbda6bd75934f276.avif",
+    "static/media/capo-logo.avif": "/static/media/capo-logo.4925930cac72649824cc.avif",
+    "static/media/testomonial-imge.avif": "/static/media/testomonial-imge.3c00558b9a756f0bdfca.avif",
+    "index.html": "/index.html",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.3d18ab5d.css.map": "/static/css/main.3d18ab5d.css.map",
+    "main.161290f8.js.map": "/static/js/main.161290f8.js.map",
+    "787.86bae028.chunk.js.map": "/static/js/787.86bae028.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d18ab5d.css",
+    "static/js/main.161290f8.js"
+  ]
+}

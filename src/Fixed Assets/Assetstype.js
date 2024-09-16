@@ -47,7 +47,7 @@ export default function Assetstype() {
         <meta name="description" content="A business asset is an item of value owned by a company. Business assets span many categories. They can be physical, tangible goods, such as vehicles, real estate, computers," />
       </Helmet>
 
-      <h1 className='manual-h1'>Asset Type</h1>
+      <h2 className='manual-h1'>Asset Type</h2>
       <p>A business asset is an item of value owned by a company. Business assets span many categories. They can be physical, tangible goods, such as vehicles, real estate, computers, office furniture, and other fixtures, or intangible items, such as intellectual property. In this you simply select the branch name and asset type. It will also provide a list of all asset types, which you may browse, alter, and delete.</p>
       <img src="/img/Add-Asset-Type.avif" className='img-fluid' alt="Add-Asset-Type" />
     </div>

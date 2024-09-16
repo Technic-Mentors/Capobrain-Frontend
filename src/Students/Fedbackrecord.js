@@ -47,7 +47,7 @@ export default function Fedbackrecord() {
         <meta name="description" content="If a school user wants to post a review about any of the student, they may search by ID and there is a box for feedback where they can give input and then save it," />
       </Helmet>
 
-<h1 className='manual-h1'>Feedback Record</h1>
+<h2 className='manual-h1'>Feedback Record</h2>
 <p>If a school user wants to post a review about any of the student, they may search by ID and there is a box for feedback where they can give input and then save it, and it will display a list of all the student comments.</p>
  <img src="/img/Add-Students-Feedback.avif" className='img-fluid' alt="Add-Students-Feedback" />  
 </div>

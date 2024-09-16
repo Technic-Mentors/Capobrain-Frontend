@@ -55,7 +55,7 @@ export default function Expencecate() {
 " />
       </Helmet>
 
-      <h1 className='manual-h1'>Expense Category</h1>
+      <h2 className='manual-h1'>Expense Category</h2>
       <p>In the expense category, you will simply add the category that you selected when adding the expense, and you will be able to inspect, modify, or remove this as well. </p>
       <img src="/img/Add-Expence-Category.avif" className='img-fluid' alt="Add-Expence-Category" />
     </div>

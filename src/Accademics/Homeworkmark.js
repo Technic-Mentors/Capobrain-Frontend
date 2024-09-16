@@ -47,7 +47,7 @@ export default function Homeworkmark() {
         <meta name="description" content="This module enables school administrators to enter summer homework marking. When you click on the summer homework marking list, you will select a branch, class, section," />
       </Helmet>
 
-      <h1 className='manual-h1'>Home Work Marking</h1>
+      <h2 className='manual-h1'>Home Work Marking</h2>
       <p>This module enables school administrators to enter summer homework marking. When you click on the summer homework marking list, you will select a branch, class, section, and subject before clicking the load button, which will display a list of students based on the filters you have chosen, after which you will enter the homework marking, which students and parents can view on their portal and teachers can do from their portal.</p>
       <img src="/img/Summer-Vacation-Homework-Marking.avif" className='img-fluid' alt="Summer-Vacation-Homework-Marking" />
     </div>

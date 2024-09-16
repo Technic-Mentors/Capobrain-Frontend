@@ -47,7 +47,7 @@ export default function Visitors() {
         <meta name="description" content="In the visitors meeting module, there are two options: meeting with staff or meeting with students. First and foremost, you can see that we need staff or students to add the meeting," />
       </Helmet>
 
-      <h1 className='manual-h1'>Visitors Meeting</h1>
+      <h2 className='manual-h1'>Visitors Meeting</h2>
       <p>
         In the visitors meeting module, there are two options: meeting with
         staff or meeting with students. First and foremost, you can see that we

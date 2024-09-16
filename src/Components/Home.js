@@ -3,7 +3,7 @@ import Service from "./Service";
 import { Link } from "react-router-dom";
 import Pricing from "./Pricing";
 import Logo from "./Logo";
-import Testimonial from "./Testimonial";
+// import Testimonial from "./Testimonial";
 import "animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -132,7 +132,7 @@ export default function Home() {
                     to='/about'
                   >
                     <i className="fa-solid fa-arrow-right me-2 moveIcon text-white"></i>
-                    Read More
+                    Learn More
                   </Link>
                 </div>
               </div>
@@ -147,23 +147,21 @@ export default function Home() {
       <Logo />
       <Benefits />
       <ChooseUs />
-      <Testimonial />
+      {/* <Testimonial /> */}
 
       {/* video modal */}
       <div className="modal fade" id="video" tabIndex="-1" aria-labelledby="exampleModalLabel">
         <div className="modal-dialog modal-lg" data-backdrop="static">
           <div className="modal-content rounded-0">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel">
-                Demo Video
-              </h5>
+
               <button
                 type="button"
                 id="closeBtn"
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
-                onClick={blockIframe} // Call the blockIframe function on close button click
+                onClick={blockIframe}
               ></button>
             </div>
             <div className="modal-body" id="modalBody">

@@ -47,7 +47,7 @@ export default function Chat() {
         <meta name="description" content="Undoubtedly, this module will be utilized for communication, but it will be between school users and their parents. The proper chat room is this one." />
       </Helmet>
 
-      <h1 className='manual-h1'>Chat</h1>
+      <h2 className='manual-h1'>Chat</h2>
       <p>Undoubtedly, this module will be utilized for communication, but it will be between school users and their parents. The proper chat room is this one. There is a chat feature on the parent portal that allows parents to send messages to the school. The school will receive the relevant message with the parent's name and answer appropriately.</p>
       <img src="/img/Chats.avif" className='img-fluid' alt="Chats" />
     </div>

@@ -47,7 +47,7 @@ export default function Postalrecieve() {
         <meta name="description" content="In the postal Receive module, you may enter all postal receive details such as the title, from title, reference number, address, and date. In postal dispatch all the fields are mandatory" />
       </Helmet>
 
-      <h1 className='manual-h1'>Postal Receive</h1>
+      <h2 className='manual-h1'>Postal Receive</h2>
       <p>In the postal Receive module, you may enter all postal receive details such as the title, from title, reference number, address, and date. In postal dispatch all the fields are mandatory as you can see red star with all fields. This is the option where you may add all postal receives and examine the list of postal receives. You can also update the details of any postal.</p>
       <img src="/img/Add-Postal-Recieve.avif" className='img-fluid' alt="Add-Postal-Recieve" />
     </div>

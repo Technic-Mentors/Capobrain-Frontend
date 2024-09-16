@@ -47,7 +47,7 @@ export default function Teachersrepor() {
         <meta name="description" content=" This functionality enables efficient tracking and retrieval of relevant staff records, and users can further generate and print reports, enhancing the school's administrative and record-keeping capabilities." />
       </Helmet>
 
-    <h1 className='manual-h1'>Staff Report</h1>
+    <h2 className='manual-h1'>Staff Report</h2>
     <p>The "Staff Report" module provides comprehensive data accessibility, allowing users to filter and view specific staff information based on Email, contact and class. This functionality enables efficient tracking and retrieval of relevant staff records, and users can further generate and print reports, enhancing the school's administrative and record-keeping capabilities.</p>
     <img src="/img/Staff-Report.avif" className='img-fluid' alt="Staff-Report" />
   </div>

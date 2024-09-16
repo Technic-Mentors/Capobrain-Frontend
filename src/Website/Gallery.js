@@ -47,7 +47,7 @@ export default function Gallery() {
         <meta name="description" content="In gallery submodule, we can add images, title and description about the gallery page. The images that we will add here, will be displayed on the Gallery section of the website on the front page." />
       </Helmet>
 
-      <h1 className='manual-h1'>Gallery</h1>
+      <h2 className='manual-h1'>Gallery</h2>
       <p>In gallery submodule, we can add images, title and description about the gallery page. The images that we will add here, will be displayed on the Gallery section of the website on the front page. We can change, update or delete the images whenever needed.</p>
       <img src="/img/Add-School-Galery-Detail.avif" className='img-fluid' alt="Add-School-Galery-Detail" />
     </div>

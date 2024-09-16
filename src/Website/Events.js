@@ -47,7 +47,7 @@ export default function Events() {
         <meta name="description" content="In this module as we discuss that the website module will create the website for the school. Therefore, you will add the event details that you wish to display on your website to the event submodule. " />
       </Helmet>
       
-      <h1 className='manual-h1'>Events</h1>
+      <h2 className='manual-h1'>Events</h2>
       <p>In this module as we discuss that the website module will create the website for the school. Therefore, you will add the event details that you wish to display on your website to the event submodule. You should provide the event's name, location, start and end dates, a picture, and a description. The event details will be displayed on the page that has the event name when you visit the website. This event can also be viewed, modified, or deleted, and any changes will also be reflected on the website.</p>
       <img src="/img/Add-School-Event-Detail.avif" className='img-fluid' alt="Add-School-Event-Detail" />
     </div>

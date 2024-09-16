@@ -47,7 +47,7 @@ export default function Configtopic() {
         <meta name="description" content="After logging in successfully, a dashboard will appear representing all the importing highlights regarding the school. We can filter this information by choosing the school branch." />
       </Helmet>
 
-    <h1 className='manual-h1'>Configure Topic</h1>
+    <h2 className='manual-h1'>Configure Topic</h2>
     <p>Paper generator has a number of submodules, the second of which is configure topic. The topic name can be changed from the chapter. The purpose of the configuration topic is to get you mentioned in the paper utilizing data from this chapter.</p>
     <img src="/img/Add-Topic-Detail.avif" className='img-fluid' alt="Add-Topic-Detail" />
   </div>

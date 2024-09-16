@@ -47,7 +47,7 @@ export default function Sections() {
         <meta name="description" content="Classes use section modules. You will undoubtedly add the part after adding the classes. Multiple sections of the same class may be added." />
       </Helmet>
 
-      <h1 className='manual-h1'>Sections</h1>
+      <h2 className='manual-h1'>Sections</h2>
       <p>Classes use section modules. You will undoubtedly add the part after adding the classes. Multiple sections of the same class may be added. You can add through this section module, for instance, if a Class 1 has Section A and Section B.</p>
       <img src="/img/Add-Section.avif" className='img-fluid' alt="Add-Section" />
     </div>

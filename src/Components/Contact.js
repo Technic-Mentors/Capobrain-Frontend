@@ -85,7 +85,7 @@ export default function Contact() {
                   <div className="">
                     <div>
                       <h1 className="animate__animated animate__zoomIn">
-                        Transforming Education Through Technology
+                        Get In Touch With Us
                       </h1>
                     </div>
                   </div>
@@ -120,13 +120,13 @@ export default function Contact() {
                   style={{
                     width: "50px",
                     height: "50px",
-                    backgroundColor: "var(--primary-color)",
+                    backgroundColor: "var(--primary-color)"
                   }}
                 >
                   <i className="fas fa-map-marker-alt text-white"></i>
                 </div>
                 <div className="ms-3">
-                  <h3 className="seo-heading-h3" style={{ color: "initial" }}>Address</h3>
+                  <p className="seo-heading-h3" style={{ color: "initial", fontSize: "18px", fontWeight: 'bold' }}>Address</p>
                   <p style={{ color: "black" }}>
                     Mumtaz Market, GT Road, Gujranwala
                   </p>
@@ -148,13 +148,13 @@ export default function Contact() {
                   style={{
                     width: "50px",
                     height: "50px",
-                    backgroundColor: "var(--primary-color)",
+                    backgroundColor: "var(--primary-color)"
                   }}
                 >
                   <i className="fa fa-phone text-white"></i>
                 </div>
                 <div className="ms-3">
-                  <h3 className="seo-heading-h3" style={{ color: "initial" }}>Call Us</h3>
+                  <p className="seo-heading-h3" style={{ color: "initial", fontSize: "18px", fontWeight: 'bold' }}>Call Us</p>
                   <p style={{ color: "black" }}>+923 111 122 144</p>
                 </div>
               </div>
@@ -180,7 +180,7 @@ export default function Contact() {
                   <i className="fa fa-envelope text-white"></i>
                 </div>
                 <div className="ms-3">
-                  <h3 className="seo-heading-h3" style={{ color: "initial" }}>Email</h3>
+                  <p className="seo-heading-h3" style={{ color: "initial", fontSize: "18px", fontWeight: 'bold' }}>Email</p>
                   <p style={{ color: "black" }}> <a href="mailto:info@capobrain.com" style={{ textDecoration: "none", color: "black" }}>info@capobrain.com</a></p>
                 </div>
               </div>

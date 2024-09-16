@@ -66,85 +66,103 @@ export default function Signup() {
   };
 
   return (
-    <div className="elevateGreeing">
-      <div className="elevateGreeing-overla">
-        <div className="d-flex justify-content-end">
-        </div>
-        <div className="container">
-          <div className="row d-flex justify-content-center">
-            <div className="col-md-4 py-5">
-
-              <form onSubmit={handlesubmit}>
-                <div className="mb-1">
-                  <label htmlFor="name" className="form-label">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    name="name"
-                    value={credentials.name}
-                    onChange={onchange}
-                    id="email"
-                  />
-                  <div className="text-danger" id="name-error"></div>
+    <div>
+      <div className="home-container">
+        <div className="home-container-overlay">
+          <div className="container">
+            <div className="row d-flex align-items-center justify-content-center px-5">
+              <div className="col-md-6 py-6">
+                <div
+                >
+                  <div className="">
+                    <div>
+                      <h1 className="animate__animated animate__zoomIn text-center">
+                        Sign Up
+                      </h1>
+                    </div>
+                  </div>
                 </div>
-                <div className="mb-1">
-                  <label htmlFor="email" className="form-label">
-                    Email address
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    name="email"
-                    value={credentials.email}
-                    onChange={onchange}
-                    id="email"
-                  />
-                  <div className="text-danger" id="email-error"></div>
-                </div>
-                <div className="mb-1">
-                  <label htmlFor="number" className="form-label">
-                    Contact Number
-                  </label>
-                  <input
-                    type="number"
-                    className="form-control"
-                    name="number"
-                    value={credentials.number}
-                    onChange={onchange}
-                    id="number"
-                  />
-                  <div className="text-danger" id="number-error"></div>
-                </div>
-                <div className="mb-1">
-                  <label htmlFor="password" className="form-label">
-                    Password
-                  </label>
-                  <input
-                    type="password"
-                    className="form-control"
-                    name="password"
-                    value={credentials.password}
-                    onChange={onchange}
-                    id="password"
-                  />
-                  <div className="text-danger" id="password-error"></div>
-                </div>
-                <div className="d-flex justify-content-center">
-                  <button
-                    type="submit"
-                    className="btn btnFill mb-2 mt-4 px-4"
-                  >
-                    <i className='fas fa-arrow-right me-2 moveIcon text-white'></i>
-                    Sign Up
-                  </button>
-                </div>
-              </form>
-              <h6 className='text-center formButton'>
-                Already Have Account? <Link to="/userLogin">Log In</Link>
-              </h6>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="d-flex justify-content-end">
+      </div>
+      <div className="container">
+        <div className="row d-flex justify-content-center">
+          <div className="col-md-4 py-5">
+
+            <form onSubmit={handlesubmit}>
+              <div className="mb-1">
+                <label htmlFor="name" className="form-label">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  className="form-control"
+                  name="name"
+                  value={credentials.name}
+                  onChange={onchange}
+                  id="email"
+                />
+                <div className="text-danger" id="name-error"></div>
+              </div>
+              <div className="mb-1">
+                <label htmlFor="email" className="form-label">
+                  Email address
+                </label>
+                <input
+                  type="email"
+                  className="form-control"
+                  name="email"
+                  value={credentials.email}
+                  onChange={onchange}
+                  id="email"
+                />
+                <div className="text-danger" id="email-error"></div>
+              </div>
+              <div className="mb-1">
+                <label htmlFor="number" className="form-label">
+                  Contact Number
+                </label>
+                <input
+                  type="number"
+                  className="form-control"
+                  name="number"
+                  value={credentials.number}
+                  onChange={onchange}
+                  id="number"
+                />
+                <div className="text-danger" id="number-error"></div>
+              </div>
+              <div className="mb-1">
+                <label htmlFor="password" className="form-label">
+                  Password
+                </label>
+                <input
+                  type="password"
+                  className="form-control"
+                  name="password"
+                  value={credentials.password}
+                  onChange={onchange}
+                  id="password"
+                />
+                <div className="text-danger" id="password-error"></div>
+              </div>
+              <div className="d-flex justify-content-center">
+                <button
+                  type="submit"
+                  className="btn btnFill mb-2 mt-4 px-4"
+                >
+                  <i className='fas fa-arrow-right me-2 moveIcon text-white'></i>
+                  Sign Up
+                </button>
+              </div>
+            </form>
+            <h6 className='text-center formButton'>
+              Already Have Account? <Link to="/userLogin">Log In</Link>
+            </h6>
           </div>
         </div>
       </div>

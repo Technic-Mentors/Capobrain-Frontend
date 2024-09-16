@@ -47,7 +47,7 @@ export default function Refundpay() {
         <meta name="description" content="If you want to refund a payment to a student, first search for the student by ID, it will load the data of that student automatically in the fields and it will also show you the payable amount" />
       </Helmet>
 
-      <h1 className='manual-h1'>Refund Payment</h1>
+      <h2 className='manual-h1'>Refund Payment</h2>
       <p>If you want to refund a payment to a student, first search for the student by ID, it will load the data of that student automatically in the fields and it will also show you the payable amount and remaining balance of that student and then pick the payment type and refund payment, and the transaction will be recorded in the student's account.</p>
       <img src="/img/Refund-Payment.avif" className='img-fluid' alt="Refund-Payment" />
     </div>

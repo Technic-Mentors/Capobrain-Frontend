@@ -47,7 +47,7 @@ export default function Transportreport() {
         <meta name="description" content="A transport report provides a concise summary of student transportation information within an educational institution. This report typically includes crucial details such as student information," />
       </Helmet>
 
-    <h1 className='manual-h1'>Transport Report</h1>
+    <h2 className='manual-h1'>Transport Report</h2>
     <p>A transport report provides a concise summary of student transportation information within an educational institution. This report typically includes crucial details such as student information, assigned vehicle information (e.g., bus number or driver details), and specific pickup and drop-off times. It serves as a vital tool for both school administrators and parents, ensuring the safe and efficient transportation of students to and from school.</p>
     <img src="/img/Transport-Report.avif" className='img-fluid' alt="Transport-Report" />
   </div>

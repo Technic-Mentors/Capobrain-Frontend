@@ -47,7 +47,7 @@ export default function Staffcard() {
         <meta name="description" content="When you add a teacher, the teacher ID card is generated in the certificate module. It will provide you a list of all teachers who have an ID card, which you may view and print." />
       </Helmet>
 
-      <h1 className='manual-h1'>Staff ID Card</h1>
+      <h2 className='manual-h1'>Staff ID Card</h2>
       <p>When you add a teacher, the teacher ID card is generated in the certificate module. It will provide you a list of all teachers who have an ID card, which you may view and print. The ID card will display the Teacher ID, name, and branch name.</p>
       <img src="/img/Staff-ID-Card.avif" className='img-fluid' alt="Staff-Id-Card" />
     </div>

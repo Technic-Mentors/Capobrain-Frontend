@@ -47,7 +47,7 @@ export default function Salarycycle() {
         <meta name="description" content="In salary cycle, we will choose the month for start the salary cycle and that month will be activate, and then salary transaction will be working according to current month which will be active." />
       </Helmet>
 
-    <h1 className='manual-h1'>Salary Cycle</h1>
+    <h2 className='manual-h1'>Salary Cycle</h2>
     <p>In salary cycle, we will choose the month for start the salary cycle and that month will be activate, and then salary transaction will be working according to current month which will be active. Current month will be shown with the status active and remaining months status will be shown non-active. </p>
       <img src="/img/Salary-Cycle.avif" className='img-fluid' alt="Salary-Cycle" />
     </div>

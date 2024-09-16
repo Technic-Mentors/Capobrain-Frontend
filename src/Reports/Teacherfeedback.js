@@ -47,7 +47,7 @@ export default function Teacherfeedback() {
         <meta name="description" content="A staff feedback report is a document that summarizes and presents feedback, comments, or evaluations provided by employees about their workplace, job, colleagues," />
       </Helmet>
 
-      <h1 className='manual-h1'>Staff Feedback</h1>
+      <h2 className='manual-h1'>Staff Feedback</h2>
       <p>
         A staff feedback report is a document that summarizes and presents
         feedback, comments, or evaluations provided by employees about their

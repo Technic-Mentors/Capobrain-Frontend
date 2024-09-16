@@ -41,10 +41,10 @@ export default function FAQ() {
                 >
                     <div className="section-title">
                         <h2 className='text-center'>F.A.Q</h2>
-                        <h6 className='text-center' style={{ color: "initial" }}> Frequently Asked <span>Questions</span> </h6>
-                        <h6 className='text-center' style={{ color: "initial" }}>
+                        <p className='text-center' style={{ color: "initial", fontSize: '18px', fontWeight: 'bold' }}> Frequently Asked <span>Questions</span> </p>
+                        <p className='text-center' style={{ color: "initial", fontSize: '18px', fontWeight: 'bold' }}>
                             Our curated list of the most frequently asked questions about us.
-                        </h6>
+                        </p>
                     </div>
 
                     <div className="row justify-content-center">
@@ -106,7 +106,7 @@ export default function FAQ() {
                                         data-bs-parent=".faq-list"
                                     >
                                         <p>
-                                            Yes, CapoBrain is designed to cater to the needs of both schools and colleges, offering modules tailored to each educational setting.
+                                        Yes, CapoBrain is designed to cater to the needs of both schools and colleges, offering modules tailored to each educational setting. It provides flexible features that accommodate the administrative, academic, and communication requirements of both institutions, ensuring smooth operations regardless of size or complexity.
                                         </p>
                                     </div>
                                 </li>
@@ -126,7 +126,7 @@ export default function FAQ() {
                                         data-bs-parent=".faq-list"
                                     >
                                         <p>
-                                            The Postal Dispatch feature allows you to manage outgoing mail, track deliveries, and maintain a record of dispatched items.
+                                        The Postal Dispatch feature allows you to manage outgoing mail, track deliveries, and maintain a record of dispatched items. It helps ensure that important documents and packages are sent on time and provides tracking updates to monitor their status. Additionally, it keeps an organized log of all dispatches for easy reference and accountability.
                                         </p>
                                     </div>
                                 </li>
@@ -146,7 +146,7 @@ export default function FAQ() {
                                         data-bs-parent=".faq-list"
                                     >
                                         <p>
-                                            Yes, CapoBrain's Phone Call Log feature enables you to keep track of all incoming and outgoing phone calls efficiently.
+                                        Yes, CapoBrain's Phone Call Log feature enables you to keep track of all incoming and outgoing phone calls efficiently. You can record details such as the date, time, caller information, and purpose of the call, ensuring a comprehensive log for future reference. This feature helps improve communication management and provides easy access to call history when needed.
                                         </p>
                                     </div>
                                 </li>
@@ -166,7 +166,7 @@ export default function FAQ() {
                                         data-bs-parent=".faq-list"
                                     >
                                         <p>
-                                            You can easily add teaching and non-teaching staff profiles using the Staff module and assign relevant roles and responsibilities.
+                                        You can easily add teaching and non-teaching staff profiles using the Staff module and assign relevant roles and responsibilities. The module allows you to input detailed information, such as contact details and qualifications, while also providing options to categorize staff and manage their access levels within the system.
                                         </p>
                                     </div>
                                 </li>
@@ -186,7 +186,7 @@ export default function FAQ() {
                                         data-bs-parent=".faq-list"
                                     >
                                         <p>
-                                            The Staff ToDo's feature helps staff members manage their tasks, set priorities, and track progress on various assignments.
+                                        The Staff ToDo's feature helps staff members manage their tasks, set priorities, and track progress on various assignments. It allows for better organization by setting deadlines, categorizing tasks, and sending reminders to ensure timely completion. This feature enhances productivity by keeping staff focused and on track with their daily responsibilities.
                                         </p>
                                     </div>
                                 </li>

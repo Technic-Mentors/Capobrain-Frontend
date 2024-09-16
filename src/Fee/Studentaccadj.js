@@ -47,7 +47,7 @@ export default function Studentaccadj() {
         <meta name="description" content="In student account adjustment, if you want to adjust the transport, inventory or fee amount and there is another option adjustment type like debit to student or credit to student" />
       </Helmet>
 
-      <h1 className='manual-h1'>Student Account Adjustment</h1>
+      <h2 className='manual-h1'>Student Account Adjustment</h2>
       <p>In student account adjustment, if you want to adjust the transport, inventory or fee amount and there is another option adjustment type like debit to student or credit to student and then you have to add the adjustment reason and that transaction will be shown in account.</p>
       <img src="/img/Add-Student-Account-Adjustment.avif" className='img-fluid' alt="Add-Student-Account-Adjustment" />
     </div>

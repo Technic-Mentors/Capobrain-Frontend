@@ -50,7 +50,10 @@ h1 {
 }
 .seo-heading-h3{
   color: initial;
-  font-size: 20px;
+  margin: 0;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif !important;
 }
 .p-color {
   color: rgba(120, 84, 246, 1);

@@ -47,7 +47,7 @@ export default function Uploadmaterial() {
         <meta name="description" content="This is where a school user can add a help material for any subject. They can send it to everyone if you want them to. If you wish to send it to a certain class, subject, or teacher," />
       </Helmet>
 
-      <h1 className='manual-h1'>Upload Material</h1>
+      <h2 className='manual-h1'>Upload Material</h2>
       <p>This is where a school user can add a help material for any subject. They can send it to everyone if you want them to. If you wish to send it to a certain class, subject, or teacher, they can do so as well. You will choose a title, a file to upload, a date, and who you want to send it to. As a result, everyone has access to this content through their own portal.</p>
       <img src="/img/Upload-Material.avif" className='img-fluid' alt="Upload-Material" />
     </div>

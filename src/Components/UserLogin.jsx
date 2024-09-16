@@ -34,61 +34,77 @@ export default function UserLogin() {
     };
     return (
         <div>
-            <div className="elevateGreeing">
-                <div className="elevateGreeing-overla">
-                    <div className="container py-3">
-                        <div className="row d-flex justify-content-center">
-                            <div className="col-md-4 py-6">
-                                <form onSubmit={handlesubmit}>
-                                    <div id="number" className="text-danger text-center"></div>
-
-                                    <div className="mb-1">
-                                        <label htmlFor="email" className="form-label">
-                                            Email address
-                                        </label>
-                                        <input
-                                            type="email"
-                                            className="form-control"
-                                            name="email"
-                                            value={credentials.email}
-                                            onChange={onchange}
-                                            id="email"
-                                        />
-                                        <div className="email" style={{ color: "red" }} id="mail"></div>
+            <div className="home-container">
+                <div className="home-container-overlay">
+                    <div className="container">
+                        <div className="row d-flex align-items-center justify-content-center px-5">
+                            <div className="col-md-6 py-6">
+                                <div
+                                >
+                                    <div className="">
+                                        <div>
+                                            <h1 className="animate__animated animate__zoomIn text-center">
+                                                Sign In
+                                            </h1>
+                                        </div>
                                     </div>
-                                    <div className="mb-1">
-                                        <label htmlFor="password" className="form-label">
-                                            Password
-                                        </label>
-                                        <input
-                                            type="password"
-                                            className="form-control"
-                                            name="password"
-                                            value={credentials.password}
-                                            onChange={onchange}
-                                            id="password"
-                                        />
-                                        <div
-                                            className="phone no"
-                                            style={{ color: "red" }}
-                                            id="pass"
-                                        ></div>
-                                    </div>
-                                    <div className="d-flex justify-content-center">
-                                        <button
-                                            type="submit"
-                                            className="btn btnFill mb-2 mt-4 px-4"
-                                        >
-                                            <i className='fas fa-arrow-right me-2 moveIcon text-white'></i>
-                                            Log In
-                                        </button>
-                                    </div>
-                                </form>
-                                <h6 className='text-center formButton'>
-                                    Don't Have An Account? <Link to="/signup">SignUp</Link>
-                                </h6>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container py-3">
+                <div className="row d-flex justify-content-center">
+                    <div className="col-md-4 py-6">
+                        <form onSubmit={handlesubmit}>
+                            <div id="number" className="text-danger text-center"></div>
+
+                            <div className="mb-1">
+                                <label htmlFor="email" className="form-label">
+                                    Email address
+                                </label>
+                                <input
+                                    type="email"
+                                    className="form-control"
+                                    name="email"
+                                    value={credentials.email}
+                                    onChange={onchange}
+                                    id="email"
+                                />
+                                <div className="email" style={{ color: "red" }} id="mail"></div>
+                            </div>
+                            <div className="mb-1">
+                                <label htmlFor="password" className="form-label">
+                                    Password
+                                </label>
+                                <input
+                                    type="password"
+                                    className="form-control"
+                                    name="password"
+                                    value={credentials.password}
+                                    onChange={onchange}
+                                    id="password"
+                                />
+                                <div
+                                    className="phone no"
+                                    style={{ color: "red" }}
+                                    id="pass"
+                                ></div>
+                            </div>
+                            <div className="d-flex justify-content-center">
+                                <button
+                                    type="submit"
+                                    className="btn btnFill mb-2 mt-4 px-4"
+                                >
+                                    <i className='fas fa-arrow-right me-2 moveIcon text-white'></i>
+                                    Log In
+                                </button>
+                            </div>
+                        </form>
+                        <h6 className='text-center formButton'>
+                            Don't Have An Account? <Link to="/signup">SignUp</Link>
+                        </h6>
                     </div>
                 </div>
             </div>

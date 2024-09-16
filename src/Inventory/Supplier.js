@@ -47,7 +47,7 @@ export default function Supplier() {
         <meta name="description" content="In the Supplier module, we will add all of the school suppliers from whom we purchase inventory. There is a form in which you will enter the supplier's name, cell number, CNIC, and address," />
       </Helmet>
 
-      <h1 className='manual-h1'>Supplier</h1>
+      <h2 className='manual-h1'>Supplier</h2>
       <p>In the Supplier module, we will add all of the school suppliers from whom we purchase inventory. There is a form in which you will enter the supplier's name, cell number, CNIC, and address, and it will show you a list of all the suppliers, and you can view that information or change anything in the information using the update button.</p>
       <img src="/img/Add-Supplier.avif" className='img-fluid mt-5' alt="Add-Supplier" />
     </div>

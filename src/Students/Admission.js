@@ -47,7 +47,7 @@ export default function Admission() {
         <meta name="description" content="There is a form for student admission and there is an option to enter personal details, family details, guardian details and so on. First of all you have to add fee structure," />
       </Helmet>
 
-<h1 className='manual-h1'>New Admission</h1>
+<h2 className='manual-h1'>New Admission</h2>
 <p>There is a form for student admission and there is an option to enter personal details, family details, guardian details and so on. First of all you have to add fee structure, classes and section in the configuration module than you can input all of the student details step by step, and in the last step, you will select which class the student wants to admission in and there is also an option fee structure type like you want to add fee structure monthly or annually, and when we click the submit button, it will display you the student ID that the student will use to connect to their portal, and this will be unique for all of the students.
 </p>
 <ul>

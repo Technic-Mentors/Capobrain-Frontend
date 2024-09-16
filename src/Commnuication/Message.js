@@ -47,7 +47,7 @@ export default function Message() {
         <meta name="description" content="You can send messages to everyone in this module, including students, teachers, and parents. Therefore, in the message module, you will first select the message subject, message, and date." />
       </Helmet>
 
-      <h1 className='manual-h1'>Messages</h1>
+      <h2 className='manual-h1'>Messages</h2>
       <p>You can send messages to everyone in this module, including students, teachers, and parents. Therefore, in the message module, you will first select the message subject, message, and date. Then, you have the option of selecting the recipient of the message. If you select everyone, then the message will be sent to everyone who uses this system. If, however, you only want to send it to a specific individual, such as a teacher or student of a particular class, then you can also select that option. It will provide a list so you can quickly see which message was delivered when and to whom.</p>
       <img src="/img/Add-Message.avif" className='img-fluid' alt="Add-Message" />
     </div>

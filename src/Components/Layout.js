@@ -17,7 +17,7 @@ export default function Layout() {
                   <div className="">
                     <div>
                       <h1 className="animate__animated animate__zoomIn">
-                        Eye-catching design & User Friendly
+                        Explore Our Software User Manual
                       </h1>
                     </div>
                   </div>
@@ -32,7 +32,7 @@ export default function Layout() {
       </div>
       <div className="container my-4">
         <h2 className="text-center">Capobrain <span> User</span> Guide</h2>
-        <p style={{ textAlign: "justify" }}>Explore the full potential of Capobrain, your ultimate online education management system. This user manual is your comprehensive guide to navigating and maximizing our platform. From course creation to grade tracking, Capobrain empowers educators, students, and administrators. Benefit from real-time collaboration, attendance tracking, and detailed analytics, all explained in this guide. Secure access controls and a centralized hub for resources make Capobrain the ideal solution for <a href="https://mentorsacademia.com/" style={{ textDecoration: "none" }} target="blank"> modern education</a>. Revolutionize your experience with this manual, ensuring you harness the full power of Capobrain.</p>
+        <p style={{ textAlign: "justify" }}>Explore the full potential of Capobrain with our software user manual. It is your ultimate online education management system. This user manual is your comprehensive guide to navigating and maximizing our platform. From course creation to grade tracking, Capobrain empowers educators, students, and administrators. Benefit from real-time collaboration, attendance tracking, and detailed analytics, all explained in this guide. Secure access controls and a centralized hub for resources make Capobrain the ideal solution for <a href="https://mentorsacademia.com/" style={{ textDecoration: "none" }} target="blank"> modern education</a>. Revolutionize your experience with this manual, ensuring you harness the full power of Capobrain.</p>
       </div>
       <div className="cintainer-fluid mb-3">
         <div className="row mt-3">

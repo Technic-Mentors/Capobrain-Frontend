@@ -21,48 +21,48 @@ export default function SeoTags() {
                 break;
             case "/about":
                 setName("About")
-                setTitle("Know About The Leading School Management System - Capobrain")
-                setUrl("https://capobrain.com/about")
+                setTitle("The Leading School Management System - Capobrain")
+                setUrl("https://capobrain.com/about/")
                 setImg("https://capobrain.com/img/education.png")
                 setDescription("Learn about Capobrain, a top school management system designed to streamline school operations and enhance student success.")
                 break;
             case "/features":
                 setName("Features")
                 setTitle("Comprehensive School Software Features - Capobrain")
-                setUrl("https://capobrain.com/features")
+                setUrl("https://capobrain.com/features/")
                 setImg("https://capobrain.com/img/about%20us.png")
                 setDescription("Explore comprehensive features of Capobrain's school software, designed to streamline administration, enhance learning, and improve overall school efficiency.")
                 break;
             case "/user-manual/dashboard":
                 setName("User Manual")
                 setTitle("Our Detailed Software User Manual - Capobrain")
-                setUrl("https://capobrain.com/user-manual/dashboard")
+                setUrl("https://capobrain.com/user-manual/dashboard/")
                 setImg("https://capobrain.com/img/dash.jpg")
                 setDescription("Explore Capobrain's user manual for easy guidance on using our School Management Software. Get tips, instructions, and support for smooth operations.")
                 break;
             case "/help":
                 setName("Help")
                 setTitle("Capobrain Help Center")
-                setUrl("https://capobrain.com/help")
+                setUrl("https://capobrain.com/help/")
                 setImg("https://capobrain.com/static/media/help-img.e98695db018ac2bee340.avif")
                 setDescription("Visit Capobrain Help Center for guides and support on school management software, including troubleshooting, administration, and live reporting.")
                 break;
             case "/blog":
                 setName("Blog")
                 setTitle("Blogs - Capobrain")
-                setUrl("https://capobrain.com/blog")
+                setUrl("https://capobrain.com/blog/")
                 setDescription("Discover blogs on school management, live reporting, and educational tech with Capobrain School Management Software. Stay updated with the latest trends.")
                 break;
             case "/faqs":
                 setName("FAQ'S")
                 setTitle("FAQ's - CapoBrain")
-                setUrl("https://capobrain.com/faqs")
+                setUrl("https://capobrain.com/faqs/")
                 setDescription("Get answers about Capobrain School Management System. Learn how our software streamlines school administration and enhances real-time reporting.")
                 break;
             case "/contact":
                 setName("Contact")
                 setTitle("Get In Touch With Us - CapoBrain")
-                setUrl("https://capobrain.com/contact")
+                setUrl("https://capobrain.com/contact/")
                 setDescription("Get in touch with Capobrain team for a demo of our advanced Education Management System. Use our contact form for inquiries.")
                 break;
             default:

@@ -47,7 +47,7 @@ export default function Innventory() {
         <meta name="description" content="In this module, you will enter the name of the inventory, as well as its cost and sale price. It will also display a list of all inventory to which you will be provided." />
       </Helmet>
 
-      <h1 className='manual-h1'>Inventory</h1>
+      <h2 className='manual-h1'>Inventory</h2>
       <p>In this module, you will enter the name of the inventory, as well as its cost and sale price. It will also display a list of all inventory to which you will be provided.</p>
       <img src="/img/Add-Inventory.avif" className='img-fluid' alt="Add-Inventory" />
     </div>

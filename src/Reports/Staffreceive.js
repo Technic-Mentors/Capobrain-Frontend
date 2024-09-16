@@ -47,7 +47,7 @@ export default function Staffreceive() {
         <meta name="description" content="The staff Accounts Receivable department plays a pivotal role in managing salary and expenses. Their responsibilities encompass assessing and collecting payments in a precise" />
       </Helmet>
 
-    <h1 className='manual-h1'>Staff Receiveables</h1>
+    <h2 className='manual-h1'>Staff Receiveables</h2>
     <p>The staff Accounts Receivable department plays a pivotal role in managing salary and expenses. The staff Accounts Receivable department plays a pivotal role in managing salary and expenses. Their responsibilities encompass assessing and collecting payments in a precise The report offers a comprehensive overview, detailing the names of staff, Staff ID, Contact, CNIC, Email and Balance. This information streamlines financial tracking and aids in maintaining accurate and efficient financial records for the institution</p>
     <img src="/img/Staff-Recieveable.avif" className='img-fluid' alt="Staff-Recieveable" />
   </div>

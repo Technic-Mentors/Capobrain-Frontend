@@ -33,7 +33,7 @@ export default function Footer() {
           <div>
             <div className="container pb-4">
               <div className="row d-flex justify-content-between">
-                <div className="col-lg-4 mt-5 col-md-6">
+                <div className="col-md-4 mt-5">
                   <h3
                     className="fw-bold d-block"
                   >
@@ -52,77 +52,16 @@ export default function Footer() {
                     ensuring a harmonious and paper-free school environment.
                   </p>
                 </div>
-                <div className="col-lg-3 mt-5 col-md-6">
-                  <h3>
-                    Short Link
-                  </h3>
-                  <div className="mt-4 d-flex flex-column short-link">
-                    <Link
-                      to="/"
-                      className="mb-2"
-                      style={{ fontSize: "16px" }}
-                      onClick={() => handleClick("/")}
-                    >
-                      <i className="fas fa-angle-right me-2"></i>
-                      Home
-                    </Link>
-                    <Link
-                      to="/about"
-                      className="mb-2"
-                      style={{ fontSize: "16px" }}
-                      onClick={() => handleClick("/about")}
-                    >
-                      <i className="fas fa-angle-right  me-2"></i>
-                      About
-                    </Link>
-                    <Link
-                      to="/features"
-                      className="mb-2"
-                      style={{ fontSize: "16px" }}
-                      onClick={() => handleClick("/features")}
-                    >
-                      <i className="fas fa-angle-right me-2"></i>
-                      Features
-                    </Link>
-                    <Link
-                      to="/user-manual"
-                      className="mb-2"
-                      style={{ fontSize: "16px" }}
-                      onClick={() => handleClick("/manual")}
-                    >
-                      <i className="fas fa-angle-right  me-2"></i>
-                      User Manual
-                    </Link>
-                    <Link
-                      to="/contact"
-                      className="mb-2"
-                      style={{ fontSize: "16px" }}
-                      onClick={() => handleClick("/contact")}
-                    >
-                      <i className="fas fa-angle-right  me-2"></i>
-                      Contact
-                    </Link>
-                    <Link
-                      to="/blog"
-                      className="mb-2"
-                      style={{ fontSize: "16px" }}
-                      onClick={() => handleClick("/blog")}
-                    >
-                      <i className="fas fa-angle-right  me-2"></i>
-                      Blog
-                    </Link>
-                    <Link
-                      to="/login"
-                      className="mb-2"
-                      style={{ fontSize: "16px" }}
-                      onClick={() => handleClick("/signup")}
-                    >
-                      <i className="fas fa-angle-right  me-2"></i>
-                      Admin
-                    </Link>
+                <div className="col-md-5 mt-5">
+                  <h3>Subscribe</h3>
+                  <p>Stay updated on how future of technology is shaping</p>
+                  <div className='d-flex'>
+                    <input type='text' className='form-control bg-transparent py-4' placeholder='Enter Your Email Here'></input>
+                    <button className='btn btnFill px-4' style={{ marginLeft: "2%" }}>Submit</button>
                   </div>
+
                 </div>
-                <div className="col-lg-4 mt-5 col-md-6">
+                <div className="col-md-3 mt-5">
                   <h3>
                     Contact Us
                   </h3>
@@ -158,6 +97,7 @@ export default function Footer() {
                       className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
                     >
                       <i className="fab fa-facebook-f text-white"></i>
+                      <span className="d-none">book</span>
                     </a>
                     <a
                       href="https://twitter.com/BrainCapo"
@@ -165,6 +105,7 @@ export default function Footer() {
                       className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
                     >
                       <i className="fab fa-twitter text-white"></i>
+                      <span className="d-none">tter</span>
                     </a>
                     <a
                       href="https://www.youtube.com/@CapoBrain"
@@ -172,6 +113,7 @@ export default function Footer() {
                       className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
                     >
                       <i className="fab fa-youtube text-white"></i>
+                      <span className="d-none">Tube</span>
                     </a>
                     <a
                       href="https://www.linkedin.com/in/CapoBrain/"
@@ -179,6 +121,7 @@ export default function Footer() {
                       className="btn btn1 btn-sm-square rounded-circle me-2"
                     >
                       <i className="fab fa-linkedin-in text-white"></i>
+                      <span className="d-none">In</span>
                     </a>
                     <a
                       href="https://www.instagram.com/CapoBrain"
@@ -186,6 +129,7 @@ export default function Footer() {
                       className="nav-fill btn btn1 btn-sm-square rounded-circle me-2"
                     >
                       <i className="fa-brands fa-instagram text-white"></i>
+                      <span className="d-none">gram</span>
                     </a>
                     <a
                       href="https://wa.me/923111122144"
@@ -193,6 +137,7 @@ export default function Footer() {
                       className="nav-fill btn btn1 btn-sm-square rounded-circle me-0"
                     >
                       <i className="fa-brands fa-whatsapp text-white"></i>
+                      <span className="d-none">sapp</span>
                     </a>
                   </div>
                 </div>

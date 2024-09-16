@@ -47,7 +47,7 @@ export default function Config() {
         <meta name="description" content="In configure certificate, there is two options one is configure certificate for student or configure certificate for staff. You will add the title of the certificate which you are going to configure" />
       </Helmet>
 
-      <h1 className='manual-h1'>Configure Certificate</h1>
+      <h2 className='manual-h1'>Configure Certificate</h2>
       <p>In configure certificate, there is two options one is configure certificate for student or configure certificate for staff. You will add the title of the certificate which you are going to configure for example student of the month or Teacher of the month. So, first you will select student or staff then you will enter the title and reason of the certificate.</p>
       <img src="/img/Configure-Certificate.avif" className='img-fluid' alt="Configure-Certificate" />
     </div>

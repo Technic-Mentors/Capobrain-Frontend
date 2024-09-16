@@ -62,8 +62,9 @@ export default function Navbar() {
               height="56"
               onClick={closeNavbarOnItemClick}
               style={{ maxWidth: "14rem" }}
-              alt="school management software"
+              alt="school-management-software"
             />
+            <span className="d-none">School Management Software</span>
           </Link>
           <button
             className="navbar-toggler"

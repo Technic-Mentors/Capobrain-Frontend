@@ -24,7 +24,7 @@ export default function About() {
                   <div className="">
                     <div>
                       <h1 className="animate__animated animate__zoomIn">
-                        Transforming Education Through Technology
+                        Transforming Education Through The Leading School Management System
                       </h1>
                     </div>
                   </div>
@@ -44,7 +44,7 @@ export default function About() {
               <div className="row justify-content-center g-0">
                 <div className="col-md-10">
                   <div className="card-padding mt-3">
-                    <p style={{ textAlign: "justify" }}> Introducing Capobrain, the ultimate school software designed to streamline operations and enhance efficiency for educational institutions. Whether you are managing a bustling school or a sprawling university, our school management system integrates all aspects of campus life. From student admissions and attendance tracking to staff management and curriculum planning, Capobrain simplifies complex administrative tasks, making it the ideal solution for modern educational environments.</p>
+                    <p style={{ textAlign: "justify" }}> Introducing Capobrain, a tool to transforming education through the leading school management system that is designed to streamline operations and enhance efficiency for educational institutions. Whether you are managing a bustling school or a sprawling university, our school management system integrates all aspects of campus life. From student admissions and attendance tracking to staff management and curriculum planning, Capobrain simplifies complex administrative tasks, making it the ideal solution for modern educational environments.</p>
                     <p style={{ textAlign: "justify" }}>Capobrain stands out as a comprehensive college management system, offering unparalleled features tailored for higher education. Our campus management system ensures seamless coordination between departments, providing tools for financial management, resource allocation, and academic scheduling. By leveraging Capobrain, educational institutions can foster a more organized, productive, and connected community, revolutionizing the way schools and colleges operate.</p>
                   </div>
                 </div>
@@ -77,28 +77,28 @@ export default function About() {
             <div className="row webFeatures d-flex justify-content-between">
               <div className="col-md-3 col-6 d-flex mt-3">
                 <i className="fa-solid fa-school fa-2x me-2"></i>
-                <h3 className="seo-heading-h3">
+                <p style={{fontSize: '17px', fontWeight: 'bold'}} className="seo-heading-h3">
                   Academic <br /> Excellence
-                </h3>
+                </p>
               </div>
               <div className="col-md-3 col-6 d-flex mt-3">
                 <i className="fas fa-bullseye fa-2x me-2"></i>
                 {/* <i className=""></i> */}
-                <h3 className="seo-heading-h3">
+                <p style={{fontSize: '17px', fontWeight: 'bold'}} className="seo-heading-h3">
                   Al-powered <br /> Features
-                </h3>
+                </p>
               </div>
               <div className="col-md-3 col-6 d-flex mt-3">
                 <i className="fa-regular fa-clock fa-2x me-2"></i>
-                <h3 className="seo-heading-h3">
+                <p style={{fontSize: '17px', fontWeight: 'bold'}} className="seo-heading-h3">
                   24/7 <br /> Support
-                </h3>
+                </p>
               </div>
               <div className="col-md-2 col-6 d-flex mt-3">
                 <i className="fa-solid fa-pencil fa-2x me-2"></i>
-                <h3 className="seo-heading-h3">
+                <p style={{fontSize: '17px', fontWeight: 'bold'}} className="seo-heading-h3">
                   Regular <br /> Updates
-                </h3>
+                </p>
               </div>
             </div>
           </div>
@@ -142,9 +142,9 @@ export default function About() {
                       <div className="services-item3 bg-light">
                         <div className="p-4 text-center services-content">
                           <div className="services-content-icon3">
-                            <h3 className="seo-heading-h3 card-title">
+                            <p style={{fontSize: '18px', fontWeight: 'bold'}} className="seo-heading-h3 card-title">
                               Web Design & Development
-                            </h3>
+                            </p>
                             <p
                               className="card-text"
                               style={{ textAlign: "justify" }}
@@ -176,7 +176,7 @@ export default function About() {
                       <div className="services-item3 bg-light">
                         <div className="p-4 text-center services-content">
                           <div className="services-content-icon3">
-                            <h3 className="seo-heading-h3 card-title">Software Development</h3>
+                            <p style={{fontSize: '18px', fontWeight: 'bold'}} className="seo-heading-h3 card-title">Software Development</p>
                             <p
                               className="card-text"
                               style={{ textAlign: "justify" }}
@@ -208,9 +208,9 @@ export default function About() {
                       <div className="services-item3 bg-light">
                         <div className="p-4 text-center services-content">
                           <div className="services-content-icon3">
-                            <h3 className="seo-heading-h3 card-title">
+                            <p style={{fontSize: '18px', fontWeight: 'bold'}} className="seo-heading-h3 card-title">
                               Mobile App Development
-                            </h3>
+                            </p>
                             <p
                               className="card-text"
                               style={{ textAlign: "justify" }}
@@ -241,9 +241,9 @@ export default function About() {
                       <div className="services-item3 bg-light">
                         <div className="p-4 text-center services-content">
                           <div className="services-content-icon3">
-                            <h3 className="seo-heading-h3 card-title">
+                            <p style={{fontSize: '18px', fontWeight: 'bold'}} className="seo-heading-h3 card-title">
                               Search Engine Optimization
-                            </h3>
+                            </p>
                             <p
                               className="card-text"
                               style={{ textAlign: "justify" }}
@@ -275,7 +275,7 @@ export default function About() {
                       <div className="services-item3 bg-light">
                         <div className="p-4 text-center services-content">
                           <div className="services-content-icon3">
-                            <h3 className="seo-heading-h3 card-title">Digital Marketing</h3>
+                            <p style={{fontSize: '18px', fontWeight: 'bold'}} className="seo-heading-h3 card-title">Digital Marketing</p>
                             <p
                               className="card-text"
                               style={{ textAlign: "justify" }}
@@ -307,7 +307,7 @@ export default function About() {
                       <div className="services-item3 bg-light">
                         <div className="p-4 text-center services-content">
                           <div className="services-content-icon3">
-                            <h3 className="seo-heading-h3 card-title">Graphics Designing</h3>
+                            <p style={{fontSize: '18px', fontWeight: 'bold'}} className="seo-heading-h3 card-title">Graphics Designing</p>
                             <p
                               className="card-text"
                               style={{ textAlign: "justify" }}
@@ -347,10 +347,10 @@ export default function About() {
         >
           <div className="section-title">
             <h2 className="subtitle text-center">F.A.Q</h2>
-            <h6 className='text-center' style={{ color: "initial" }}> Frequently Asked <span>Questions</span> </h6>
-            <h6 className='text-center' style={{ color: "initial" }}>
+            <p className='text-center' style={{ color: "initial", fontWeight: 'bold' }}> Frequently Asked <span>Questions</span> </p>
+            <p className='text-center' style={{ color: "initial", fontWeight: 'bold' }}>
               Our curated list of the most frequently asked questions about us.
-            </h6>
+            </p>
           </div>
 
           <div className="row justify-content-center">

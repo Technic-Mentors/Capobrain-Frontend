@@ -47,7 +47,7 @@ export default function Innventoryrep() {
         <meta name="description" content="Inventory report provides a summary of an organization's inventory, which is a detailed list of goods, products, or materials it holds in stock at a specific point in time." />
       </Helmet>
 
-    <h1 className='manual-h1'>Inventory Report</h1>
+    <h2 className='manual-h1'>Inventory Report</h2>
     <p>Inventory report provides a summary of an organization's inventory, which is a detailed list of goods, products, or materials it holds in stock at a specific point in time. Inventory reports are essential tools for organization to monitor and manage their inventory levels efficiently. The report typically includes the following information inventory name, cost price, sale price and quantity. </p>
     <img src="/img/Inventory-Report.avif" className='img-fluid' alt="Inventory-Report" />
   </div>

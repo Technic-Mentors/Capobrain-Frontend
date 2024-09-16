@@ -47,7 +47,7 @@ export default function Notice() {
         <meta name="description" content="The announcement module contains two submodules: news and notices. In the notices submodule, you can add any notice for everyone. You will enter the notice title, link, date," />
       </Helmet>
 
-      <h1 className='manual-h1'>Notice</h1>
+      <h2 className='manual-h1'>Notice</h2>
       <p>The announcement module contains two submodules: news and notices. In the notices submodule, you can add any notice for everyone. You will enter the notice title, link, date, added by, and description and save it; this notice will be displayed to everyone on their portal. Any notice can be seen, updated, or deleted at any moment.  </p>
       <img src="/img/Add-Notice.avif" className='img-fluid' alt="Add-Notice" />
     </div>

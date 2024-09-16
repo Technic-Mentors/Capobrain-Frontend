@@ -47,7 +47,7 @@ export default function Designations() {
         <meta name="description" content="Designation is the process of selecting and appointing someone to hold a particular position of authority. You will therefore include all of the titles that the school has," />
       </Helmet>
 
-      <h1 className='manual-h1'>Designations</h1>
+      <h2 className='manual-h1'>Designations</h2>
       <p>Designation is the process of selecting and appointing someone to hold a particular position of authority. You will therefore include all of the titles that the school has, such as librarian, sports teacher, and others, in this module. You may examine, modify, or remove this designation as well.</p>
       <img src="/img/Add-Designation.avif" className='img-fluid' alt="Add-Designation" />
     </div>

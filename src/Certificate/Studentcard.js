@@ -47,7 +47,7 @@ export default function Studentcard() {
         <meta name="description" content="When a student gets admitted to school, his or her student ID card is generated in the certificate module. It will display a list of all students who have an ID card," />
       </Helmet>
 
-      <h1 className='manual-h1'>Student ID Card</h1>
+      <h2 className='manual-h1'>Student ID Card</h2>
       <p>When a student gets admitted to school, his or her student ID card is generated in the certificate module. It will display a list of all students who have an ID card, allowing you to view and print the ID card. The ID card will have your student ID, name, father's name, class, section, and branch name. </p>
       <img src="/img/Student-ID-Card.avif" className='img-fluid' alt="Student-Id-Card" />
     </div>

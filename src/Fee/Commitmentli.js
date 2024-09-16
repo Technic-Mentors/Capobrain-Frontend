@@ -47,7 +47,7 @@ export default function Commitmentli() {
         <meta name="description" content="Search the student by student ID in the fee commitment list, and it will show you the record of that student as well as the payment amount. You will then select the commitment date for the fee," />
       </Helmet>
 
-      <h1 className='manual-h1'>Fee Commitment List</h1>
+      <h2 className='manual-h1'>Fee Commitment List</h2>
       <p>Search the student by student ID in the fee commitment list, and it will show you the record of that student as well as the payment amount. You will then select the commitment date for the fee, and there is another option to show the fee commitment list.</p>
       <img src="/img/Fee-Comitment-List.avif" className='img-fluid' alt="Fee-Comitment-List" />
     </div>

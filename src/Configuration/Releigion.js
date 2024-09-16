@@ -55,7 +55,7 @@ export default function Releigion() {
 " />
       </Helmet>
 
-      <h1 className='manual-h1'>Religion</h1>
+      <h2 className='manual-h1'>Religion</h2>
       <p>In this module you can simply add the religion, It will show you the list of all religion name so you can view, update and delete anyone from this.</p>
       <img src="/img/Add-Religion.avif" className='img-fluid' alt="Add-Religion" />
     </div>

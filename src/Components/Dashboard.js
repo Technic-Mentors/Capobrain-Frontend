@@ -4,7 +4,7 @@ export default function Dashboard() {
   return (
     <div className="container">
 
-      <h1>Dashboard </h1>
+      <h2>Dashboard </h2>
       <p>
         After logging in successfully, a dashboard will appear representing all
         the importing highlights regarding the school. We can filter this

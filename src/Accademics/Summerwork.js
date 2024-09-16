@@ -47,7 +47,7 @@ export default function Summerwork() {
         <meta name="description" content="This module allows school users to enter summer homework details for any subject. You will select the branch, class, and subject, and then add the information of the homework" />
       </Helmet>
 
-      <h1 className='manual-h1'>Summer Home Work</h1>
+      <h2 className='manual-h1'>Summer Home Work</h2>
       <p>This module allows school users to enter summer homework details for any subject. You will select the branch, class, and subject, and then add the information of the homework and their grades so that summer homework details may be viewed by students on their site.</p>
       <img src="/img/Add-Summer-Homework.avif" className='img-fluid' alt="Add-Summer-Homework" />
     </div>

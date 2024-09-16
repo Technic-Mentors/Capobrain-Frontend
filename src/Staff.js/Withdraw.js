@@ -46,7 +46,7 @@ export default function Withdraw() {
         <link rel="canonical" href="https://capobrain.com/user-manual/staff-withdraw" />
         <meta name="description" content="If you want to withdraw any staff from school, you may do so by searching the staff by ID and then entering the reason for withdrawal. After you withdraw that staff, it will be removed from the staff list" />
       </Helmet>
-<h1 className='manual-h1'>Staff Withdraw</h1>
+<h2 className='manual-h1'>Staff Withdraw</h2>
 <p>If you want to withdraw any staff from school, you may do so by searching the staff by ID and then entering the reason for withdrawal. After you withdraw that staff, it will be removed from the staff list and it will show you a list of all withdraw staff with reasons.</p>
      <img src="/img/Add-Feedback.avif" className='img-fluid' alt="Add-Feedback" /> 
     </div>

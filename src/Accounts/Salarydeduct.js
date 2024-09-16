@@ -47,7 +47,7 @@ export default function Salarydeduct() {
         <meta name="description" content="So the staff salary will be deducted on any basis, so this is the module to enter the detail search the staff by ID and then input the amount and reason of deduction so the amount will be deducted from account." />
       </Helmet>
 
-      <h1 className='manual-h1'>Salary Deduction</h1>
+      <h2 className='manual-h1'>Salary Deduction</h2>
       <p>So the staff salary will be deducted on any basis, so this is the module to enter the detail search the staff by ID and then input the amount and reason of deduction so the amount will be deducted from account.</p>
       <img src="/img/Deduct-Salary.avif" className='img-fluid' alt="Deduct-Salary" />
     </div>

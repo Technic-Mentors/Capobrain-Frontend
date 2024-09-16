@@ -47,7 +47,7 @@ export default function Confischol() {
         <meta name="description" content="Scholarships are given out for many reasons. Merit scholarships, essay scholarships, academic achievement scholarships, and athletic scholarships are all options." />
       </Helmet>
 
-      <h1 className='manual-h1'>Configure Scholorship</h1>
+      <h2 className='manual-h1'>Configure Scholorship</h2>
       <p>Scholarships are given out for many reasons. Merit scholarships, essay scholarships, academic achievement scholarships, and athletic scholarships are all options. You will select the branch, scholarship name, kind, and amount in this section. Scholarships are classified into two types: one-time and permanent. When you apply for a scholarship for a student, the scholarship amount is deducted from the student's account.</p>
       <img src="/img/Configure-Scholarship.avif" className='img-fluid' alt="Configure-Scholarship" />
     </div>

@@ -47,7 +47,7 @@ export default function Staffreview() {
         <meta name="description" content="If a school user wants to post a review about any of the staff, they may search by ID and there is some question and a rating box so you can give rating no according to their work and then save it," />
       </Helmet>
 
-<h1 className='manual-h1'>Staff Review</h1>
+<h2 className='manual-h1'>Staff Review</h2>
 <p>If a school user wants to post a review about any of the staff, they may search by ID and there is some question and a rating box so you can give rating no according to their work and then save it, and it will display a list of all the staff comments.</p>
      <img src="/img/Add-Staff-Review.avif" className='img-fluid' alt="Add-Staff-Review" />
     </div>

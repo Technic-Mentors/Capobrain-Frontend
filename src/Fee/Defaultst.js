@@ -47,7 +47,7 @@ export default function Defaultst() {
         <meta name="description" content="If there are any students who have not paid their fees or commitments on time, their names will be displayed in the default student’s module." />
       </Helmet>
 
-      <h1 className='manual-h1'>Default Students</h1>
+      <h2 className='manual-h1'>Default Students</h2>
       <p>If there are any students who have not paid their fees or commitments on time, their names will be displayed in the default student’s module.</p>
       <img src="/img/Default-Students-List.avif" className='img-fluid' alt="Default-Students-List" />
     </div>

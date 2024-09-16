@@ -20,7 +20,7 @@ export default function Pricing() {
             <div className="row justify-content-between">
               <div className="col-md-7">
                 <h2>Smarter Solutions for Modern Education</h2>
-                <p style={{ textAlign: "justify" }}>Transform your educational institution with Capobrain's powerful school software. Our advanced school management system streamlines administrative tasks, enhances communication, and improves resource management. As a comprehensive college management system, Capobrain also ensures seamless operations across campuses, making it the perfect campus management system for schools, colleges, and universities aiming for excellence.</p>
+                <p style={{ textAlign: "justify" }}>Transform your educational institution with Capobrain's best school/college management software. Our advanced school management system streamlines administrative tasks, enhances communication, and improves resource management. As a comprehensive college management system, Capobrain also ensures seamless operations across campuses, making it the perfect campus management system for schools, colleges, and universities aiming for excellence.</p>
               </div>
               <div className="col-md-4">
                 <img src={elevateImg} alt="elevate-img" width="360" height="300" className="img-fluid" loading="lazy"></img>

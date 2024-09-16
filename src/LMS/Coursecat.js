@@ -47,7 +47,7 @@ export default function Coursecat() {
         <meta name="description" content="We must first add the course category before we can add the course, thus add the course category first, followed by the course. Simply input the category name," />
       </Helmet>
 
-      <h1 className='manual-h1'>Course Category</h1>
+      <h2 className='manual-h1'>Course Category</h2>
       <p>We must first add the course category before we can add the course, thus add the course category first, followed by the course. Simply input the category name, and it will display a list of all the categories that you have, allowing you to see, edit, and delete them.</p>
       <img src="/img/Add-Course-Category.avif" className='img-fluid' alt="Add-Course-Category" />
     </div>

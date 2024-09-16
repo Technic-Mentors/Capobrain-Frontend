@@ -47,7 +47,7 @@ export default function Admilist() {
         <meta name="description" content="In student list, it will show all the student list you can view the documents, login details or you can also change anything in the form or you can also delete any form." />
       </Helmet>
 
-      <h1 className='manual-h1'>Student List</h1>
+      <h2 className='manual-h1'>Student List</h2>
       <p>
         In student list, it will show all the student list you can view the
         documents, login details or you can also change anything in the form or

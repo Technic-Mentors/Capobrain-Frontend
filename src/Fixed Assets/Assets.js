@@ -47,7 +47,7 @@ export default function Assets() {
         <meta name="description" content="A business asset is something that has current or future economic worth to the company. Assets are everything of value to a business that promotes productivity, efficiency, and revenue." />
       </Helmet>
 
-      <h1 className='manual-h1'>Assets</h1>
+      <h2 className='manual-h1'>Assets</h2>
       <p>A business asset is something that has current or future economic worth to the company.  Assets are everything of value to a business that promotes productivity, efficiency, and revenue. So, this module works precisely the same way. In this you will choose Branch name, asset type, asset name and amount. It will also provide a list of all asset types, which you may browse, alter, and delete.</p>
       <img src="/img/Add-Asset.avif" className='img-fluid' alt="Add-Asset" />
     </div>

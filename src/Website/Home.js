@@ -47,7 +47,7 @@ export default function Home2() {
         <meta name="description" content="When we click on home module it will show you the form which contain the fields related to school information which will display on website. You will enter address," />
       </Helmet>
 
-      <h1 className='manual-h1'>Home</h1>
+      <h2 className='manual-h1'>Home</h2>
       <p>When we click on home module it will show you the form which contain the fields related to school information which will display on website. You will enter address, email, phone no, social links, school logo, banner & description and footer description. You can view, edit & delete this information too.</p>
       <img src="/img/Add-School-Home-Detail.avif" className='img-fluid' alt="Add-School-Home-Detail" />
     </div>

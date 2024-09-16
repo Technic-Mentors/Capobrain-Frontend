@@ -47,7 +47,7 @@ export default function Feedbacklist() {
         <meta name="description" content="If a school user wants to post a review about any of the staff, they may search by ID and there is a box for feedback where they can give input and then save it, and it will display a list of all the staff comments." />
       </Helmet>
 
-<h1 className='manual-h1'>Feedback List</h1>
+<h2 className='manual-h1'>Feedback List</h2>
 <p>If a school user wants to post a review about any of the staff, they may search by ID and there is a box for feedback where they can give input and then save it, and it will display a list of all the staff comments.</p>
      <img src="/img/Fedback.avif" className='img-fluid' alt="Add-fedback" /> 
     </div>

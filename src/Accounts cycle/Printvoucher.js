@@ -47,7 +47,7 @@ export default function Printvoucher() {
         <meta name="description" content="Print vouchers will display certain options that must be selected in order to print the vouchers. After you select the session, it will show you the year based on the selected session," />
       </Helmet>
 
-    <h1 className='manual-h1'>Print Voucher</h1>
+    <h2 className='manual-h1'>Print Voucher</h2>
     <p>Print vouchers will display certain options that must be selected in order to print the vouchers. After you select the session, it will show you the year based on the selected session, and after you select the year, it will show you a list of all the months. After that, you must select the branch, class, section, and student, and then click the print button. It will print the vouchers based on the options you specify.</p>
       <img src="/img/Print-Vouchers.avif" className='img-fluid' alt="Print-Voucher" />
     </div>

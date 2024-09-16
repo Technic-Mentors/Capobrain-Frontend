@@ -47,7 +47,7 @@ export default function Homework() {
         <meta name="description" content="In this, school user can assign the homework of any subject to the class. You will select the branch, class, section, subject, and date, then the file and the appropriate homework detail." />
       </Helmet>
 
-      <h1 className='manual-h1'>Home Work</h1>
+      <h2 className='manual-h1'>Home Work</h2>
       <p>In this, school user can assign the homework of any subject to the class. You will select the branch, class, section, subject, and date, then the file and the appropriate homework detail. It will provide a list of all the homework that you can view. You can also search by branch name, class, and date, and it will display the data according on the search filters.</p>
       <img src="/img/Add-Home-Work.avif" className='img-fluid' alt="Add-Home-Work" />
     </div>

@@ -47,7 +47,7 @@ export default function Promote() {
         <meta name="description" content="There are two options for student promotion: single student promotion and promoting students as a full class. So, if you want to promote a single student to the next class," />
       </Helmet>
 
-      <h1 className='manual-h1'>Promote Students</h1>
+      <h2 className='manual-h1'>Promote Students</h2>
       <p>
         There are two options for student promotion: single student promotion
         and promoting students as a full class. So, if you want to promote a

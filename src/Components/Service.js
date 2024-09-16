@@ -28,7 +28,7 @@ export default function Service() {
                       <div className="p-2 text-center services-content">
                         <div className="services-content-icon3">
                           <i className="fa-solid fa-cloud fa-3x mb-4 "></i>
-                          <h3 className="mb-3 seo-heading-h3">Cloud-Based System</h3>
+                          <p className="mb-3 seo-heading-h3">Cloud-Based System</p>
                           <p className="mb-4">
                             Access Capobrain from anywhere with our secure and reliable cloud-based system, ensuring data is always up-to-date and accessible.
                           </p>
@@ -46,7 +46,7 @@ export default function Service() {
                       <div className="p-2 text-center services-content">
                         <div className="services-content-icon3">
                           <i className="fa-solid fa-memory fa-3x mb-4 "></i>
-                          <h3 className="mb-3 seo-heading-h3">Latest Cutting-Edge Technologies</h3>
+                          <p className="mb-3 seo-heading-h3">Latest Cutting-Edge Technologies</p>
                           <p className="mb-4">
                             Experience unparalleled performance with Capobrain, utilizing the latest cutting-edge technologies to deliver a seamless and efficient management system.
                           </p>
@@ -64,7 +64,7 @@ export default function Service() {
                       <div className="p-2 text-center services-content">
                         <div className="services-content-icon3">
                           <i className="fa-solid fa-computer fa-3x mb-4 "></i>
-                          <h3 className="mb-3 seo-heading-h3">Computer-Based Exam Solutions</h3>
+                          <p className="mb-3 seo-heading-h3">Computer-Based Exam Solutions</p>
                           <p className="mb-4">
                             Streamline your assessment process with Capobrain's computer-based exam solutions, offering automated grading and instant results for enhanced efficiency.
                           </p>
@@ -82,7 +82,7 @@ export default function Service() {
                       <div className="p-2 text-center services-content">
                         <div className="services-content-icon3">
                           <i className="fas fa-robot fa-3x mb-4 "></i>
-                          <h3 className="mb-3 seo-heading-h3">Artificial Intelligence Based</h3>
+                          <p className="mb-3 seo-heading-h3">Artificial Intelligence Based</p>
                           <p className="mb-4">
                             Enhance decision-making and automate routine tasks with Capobrain's artificial intelligence-based features, providing intelligent insights and personalized experiences.
                           </p>
@@ -100,9 +100,9 @@ export default function Service() {
                       <div className="p-2 text-center services-content">
                         <div className="services-content-icon3">
                           <i className="fa-solid fa-file-shield fa-3x mb-4 "></i>
-                          <h3 className="mb-3 seo-heading-h3">Data Security</h3>
+                          <p className="mb-3 seo-heading-h3">Data Security</p>
                           <p className="mb-4">
-                            Safeguard sensitive information with Capobrain's robust data security measures, ensuring comprehensive protection and privacy for all users.
+                            Safeguard sensitive information with Capobrain's robust protection measures, ensuring comprehensive protection and privacy for all users.
                           </p>
                         </div>
                       </div>
@@ -118,7 +118,7 @@ export default function Service() {
                       <div className="p-2 text-center services-content">
                         <div className="services-content-icon3">
                           <i className="fas fa-users fa-3x mb-4 "></i>
-                          <h3 className="mb-3 seo-heading-h3">Students & Parent Portals</h3>
+                          <p className="mb-3 seo-heading-h3">Students & Parent Portals</p>
                           <p className="mb-4">
                             Empower students and parents with Capobrain's dedicated portals, providing easy access to academic records, schedules, and communication tools.
                           </p>
@@ -136,7 +136,7 @@ export default function Service() {
                       <div className="p-2 text-center services-content">
                         <div className="services-content-icon3">
                           <i className="far fa-calendar-alt fa-3x mb-4 "></i>
-                          <h3 className="mb-3 seo-heading-h3">Online Daily Diary</h3>
+                          <p className="mb-3 seo-heading-h3">Online Daily Diary</p>
                           <p className="mb-4">
                             Stay organized and informed with Capobrain's online daily diary feature, allowing students and teachers to record tasks, deadlines, and progress updates effortlessly.
                           </p>
@@ -154,7 +154,7 @@ export default function Service() {
                       <div className="p-2 text-center services-content">
                         <div className="services-content-icon3">
                           <i className="fa-solid fa-mobile-screen-button fa-3x mb-4 "></i>
-                          <h3 className="mb-3 seo-heading-h3">Mobile App Support</h3>
+                          <p className="mb-3 seo-heading-h3">Mobile App Support</p>
                           <p className="mb-4">
                             Stay connected on the go with Capobrain's mobile app support, enabling access to key features and updates anytime, anywhere for ultimate convenience.
                           </p>
